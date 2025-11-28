@@ -1,0 +1,5 @@
+datapizza-ai
+pandas
+numpy
+jupyter
+python-dotenv
