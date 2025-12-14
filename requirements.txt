@@ -1,4 +1,6 @@
 datapizza-ai
+datapizza-ai-parsers-docling
+qdrant-client
 pandas
 numpy
 jupyter

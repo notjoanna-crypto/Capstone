@@ -2,6 +2,9 @@ from datapizza.clients.openai import OpenAIClient
 import os
 from dotenv import load_dotenv
 
+# Run code with docker compose exec app python data/main.py
+
+
 load_dotenv()
 
 client = OpenAIClient(
