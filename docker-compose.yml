@@ -1,10 +1,20 @@
 services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    ports:
+      - "6333:6333"
+    volumes:
+      - ./qdrant_data:/qdrant/storage
+
   app:
-    image: capstone-image
     build: .
+    image: capstone-image
     ports:
       - "8888:8888"
     volumes:
       - .:/app
     env_file:
       - .env
+    depends_on:
+      - qdrant
+

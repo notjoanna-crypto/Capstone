@@ -30,7 +30,7 @@ vectorstore = QdrantVectorstore(location=":memory:")
 
 vectorstore.create_collection(
     "my_documents",
-    vector_config=[VectorConfig(name="embedding", dimensions=1536)]
+    vector_config=[VectorConfig(name="text-embedding-3-small", dimensions=1536)]
 )
 
 # 3. Function which transformes text into vectors, this is done with openAI.
@@ -75,7 +75,7 @@ ingestion_pipeline = IngestionPipeline(
 # 2. Run the ingestion pipeline on Resvaneundersökningen 2023
 #    and store it with source name "resvaneundersokning"
 
-ingestion_pipeline.run("resvaneundersokning.pdf", metadata={"source": "resvaneundersokning", "type": "pdf"})
+ingestion_pipeline.run("resvaneundersokning_test.pdf", metadata={"source": "resvaneundersokning", "type": "pdf"})
 
 
 # 3. Search for the most similar vectors in the collection, and compare it
@@ -97,10 +97,30 @@ print(res)
 ########################################################################
 
 
-# 1. Create the LLM which is to answer the questions, the gpt-4o-mini model is fast and  cheap
+# 1. Create the LLM which is to answer the questions, the gpt-4o-mini model is fast and cheap
 #    OpenAIClient provides text to text
 openai_client = OpenAIClient(
     model="gpt-4o-mini",
     api_key=os.getenv("OPENAI_API_KEY")
 )
 
+
+# 2. Use the openai client created above and 
+
+# ToolRewriter is a LLM-baserat preprocess-step which takes a usequery and     
+# rewrites it to a format more suitable for retrival
+
+query_rewriter = ToolRewriter(
+    client=openai_client,
+    system_prompt="Rewrite user queries to improve retrieval accuracy."
+)
+
+
+# 3. Make new embedder, 
+
+embedder = OpenAIEmbedder(
+    api_key=os.getenv("OPENAI_API_KEY"), 
+    model_name="text-embedding-3-small"
+)
+
+# 4. 
