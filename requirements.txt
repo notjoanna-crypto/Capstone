@@ -1,7 +1,9 @@
 datapizza-ai
 datapizza-ai-parsers-docling
 qdrant-client
+easyocr
 pandas
 numpy
 jupyter
 python-dotenv
+pypdf
