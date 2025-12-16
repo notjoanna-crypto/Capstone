@@ -104,5 +104,5 @@ print(result["generator"])
 
 
 
-# docker compose exec app python data/retrieve.py
+# Run code with: docker compose exec app python data/retrieve.py
 

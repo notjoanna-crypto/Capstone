@@ -2,7 +2,7 @@ from datapizza.clients.openai import OpenAIClient
 import os
 from dotenv import load_dotenv
 
-# Run code with: docker compose exec app python data/main.py
+# Run code with: docker compose exec app python data/WithoutRAG.py
 
 query = "Vilket är det vanligaste färdmedlet bland de med en sammanlagd hushållsinkomst under 10 000 kronor per månad? "
 
