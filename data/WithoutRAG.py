@@ -17,4 +17,3 @@ client = OpenAIClient(
 response = client.invoke(query)
 print(response.text)
 
-# jag testar 

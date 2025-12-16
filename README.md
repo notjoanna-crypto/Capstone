@@ -14,3 +14,6 @@
 
 5. Kör ingest 1 gång för att få vektorer, med resvaneundersokning_test, alltså den som innehåller 2 sidor, denna collection är döpt till my_document. Sedan kör jag ingest 1 gång till med hela rapporten på 90 sidor och denna döper jag till resvaneundersokning_document, så nu finns det 2 stycket dokument i Qdrant- databasen som ligger i en separat container. 
 
+
+
+### 
