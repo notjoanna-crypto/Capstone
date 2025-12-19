@@ -87,12 +87,15 @@ dag_pipeline.connect("retriever", "prompt", target_key="chunks")
 # 9. This line connects the prompt module’s output to the generator (LLM) in the pipeline.
 dag_pipeline.connect("prompt", "generator", target_key="memory")
 
+
+# 10. Prompts/ Queries
 # query = "Vad handlar resvaneundersökningen om?"
-
-query = "Hur gamla är störst andel av de svarande?"
+#query = "Hur gamla är störst andel av de svarande?"
 # query = "Vilket är det vanligaste färdmedlet bland de med en sammanlagd hushållsinkomst under 10 000 kronor per månad? "
-#query = "How old are the people that answered ?"
+query = "How old are the people that answered?"
 
+
+# 11. This call executes the full DAG pipeline once, and it returns k results. 
 result = dag_pipeline.run({
     "rewriter": {"user_prompt": query},
     "prompt": {"user_prompt": query},
@@ -100,9 +103,28 @@ result = dag_pipeline.run({
     "generator": {"input": query},
 })
 
-print(result["generator"])
+print("-" * 101 + "\n" +"-" * 41 + " Answer to prompt: " + "-" * 41 + "\n" + "-" * 101)
+print(result["generator"].text)
 
+
+# 12. This code retrives the 3 different results and from where they were obtained. 
+
+print("-" * 101 + "\n" +"-" * 40 + " Source and results: " + "-" * 40 + "\n" + "-" * 101)
+
+retrieved_chunks = result["retriever"]
+
+for chunk in retrieved_chunks:
+    text = chunk.text
+    meta = chunk.metadata
+
+    source = meta.get("source")
+    page = meta.get("page_no")
+    
+    print(f"Source: {source}")
+    print(f"Page: {page}")
+    print("Text:")
+    print(text)
+    print("-" * 101)
 
 
 # Run code with: docker compose exec app python data/retrieve.py
-
