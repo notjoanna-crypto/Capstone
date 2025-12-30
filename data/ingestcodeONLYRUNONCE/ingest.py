@@ -1,4 +1,4 @@
-# docker compose exec app python data/ingest.py
+# docker compose exec app python data/ingestcodeONLYRUNONCE/ingest.py
 
 
 import os
@@ -25,7 +25,7 @@ PDF_PATH = "resvaneundersokning.pdf"
 def main():
     # 1) Connect to persistent Qdrant (docker compose service name)
     vectorstore = QdrantVectorstore(host="qdrant", port=6333)
-
+    
     # 2) Create collection needed (same vector name as retrieval)
     vectorstore.create_collection(
         COLLECTION,

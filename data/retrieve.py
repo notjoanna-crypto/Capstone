@@ -1,5 +1,6 @@
 import os
 from dotenv import load_dotenv
+import json
 
 from datapizza.clients.openai import OpenAIClient
 from datapizza.embedders.openai import OpenAIEmbedder
@@ -87,12 +88,14 @@ dag_pipeline.connect("retriever", "prompt", target_key="chunks")
 # 9. This line connects the prompt module’s output to the generator (LLM) in the pipeline.
 dag_pipeline.connect("prompt", "generator", target_key="memory")
 
-# query = "Vad handlar resvaneundersökningen om?"
 
-query = "Hur gamla är störst andel av de svarande?"
-# query = "Vilket är det vanligaste färdmedlet bland de med en sammanlagd hushållsinkomst under 10 000 kronor per månad? "
-#query = "How old are the people that answered ?"
+""" Examples of queries to test the RAG system."""
+"""""""""
+# query = "What are the seven main categories of transport modes used in the survey, and which specific modes are included in each category?"
+query = "What is the target market share for public transport compared to the current market share mentioned in the text?"
 
+
+# 11. This call executes the full DAG pipeline once, and it returns k chunks. 
 result = dag_pipeline.run({
     "rewriter": {"user_prompt": query},
     "prompt": {"user_prompt": query},
@@ -100,8 +103,79 @@ result = dag_pipeline.run({
     "generator": {"input": query},
 })
 
-print(result["generator"])
+print("-" * 101 + "\n" +"-" * 41 + " Answer to prompt: " + "-" * 41 + "\n" + "-" * 101)
+print(result["generator"].text)
 
+
+# 12. This code retrives top 3 chunks and from where they were obtained. 
+
+print("-" * 101 + "\n" +"-" * 40 + " Source and results: " + "-" * 40 + "\n" + "-" * 101)
+
+retrieved_chunks = result["retriever"]
+
+for chunk in retrieved_chunks:
+    text = chunk.text
+    meta = chunk.metadata
+
+    source = meta.get("source")
+    page = meta.get("page_no")
+    
+    print(f"Source: {source}")
+    print(f"Page: {page}")
+    print("Text:")
+    print(text)
+    print("-" * 101)
+
+"""""""""
+# 10. Prompts/ Queries from the ground truth file are loaded and run through the RAG system to get answers.
+
+# input ground truth file with questions
+GT_FILE = "data/ground_truth_final.json"
+# output file to save results
+OUTPUT_FILE = "data/results_clean_rag.json"
+# Load ground truth questions
+with open(GT_FILE, "r", encoding="utf-8") as f:
+    ground_truth = json.load(f)
+
+# Run each question through the pipeline and collect results
+results = []
+
+for item in ground_truth:
+    question_id = item["question_id"]
+    question = item["question"]
+    expected_answer = item["expected_answer"]
+
+    result = dag_pipeline.run({
+        "rewriter": {"user_prompt": question},
+        "prompt": {"user_prompt": question},
+        "retriever": {"collection_name": COLLECTION, "k": 3},
+        "generator": {"input": question},
+    })
+
+    generated_answer = result["generator"].text
+    retrieved_chunks = result["retriever"]
+
+    chunks_out = []
+    for chunk in retrieved_chunks:
+        chunks_out.append({
+            "page": chunk.metadata.get("page_no"),
+            "source": chunk.metadata.get("source"),
+            "text": chunk.text
+        })
+
+    results.append({
+        "question_id": question_id,
+        "question": question,
+        "expected_answer": expected_answer,
+        "generated_answer": generated_answer,
+        "retrieved_chunks": chunks_out,
+    })
+    
+# Save results to output file
+with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    json.dump(results, f, indent=2, ensure_ascii=False)
+
+print(f"Saved Clean RAG results to {OUTPUT_FILE}")
 
 
 # Run code with: docker compose exec app python data/retrieve.py
