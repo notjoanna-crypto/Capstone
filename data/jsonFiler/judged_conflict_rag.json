@@ -1,0 +1,123 @@
+[
+  {
+    "question_id": "GT_01",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "justification": {
+      "correctness": "The model answer states that the current percentage is 34%, while the expected ground-truth answer states it is 28%. This discrepancy indicates that the model answer does not match the expected answer in meaning.",
+      "hallucination": "The model answer includes the claim that the current percentage is 34%, which is not supported by the retrieved chunks, as they consistently report the current percentage as 34%. However, the model's interpretation of the increase from 28% to 34% is not a hallucination but rather a misinterpretation of the data.",
+      "source_drift": "The model answer relies solely on the information provided in the retrieved chunks and does not cite any external sources."
+    }
+  },
+  {
+    "question_id": "GT_02",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "justification": {
+      "correctness": "The model answer correctly states that women use bicycles 16.9% of the time and men use bicycles 16.1% of the time, which matches the expected ground-truth answer.",
+      "hallucination": "All factual claims in the model answer are supported by the retrieved chunks, as they provide the same percentages for bicycle usage by gender.",
+      "source_drift": "The model answer relies solely on the information provided in the ground-truth document and does not cite any information from other documents."
+    }
+  },
+  {
+    "question_id": "GT_03",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "justification": {
+      "correctness": "The model answer correctly states that the mode of transportation with the highest usage share for trips between 10 and 24.99 km is private vehicles, which is consistent with the retrieved chunks.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all information is corroborated.",
+      "source_drift": "The model answer relies solely on the information provided in the ground-truth document and does not reference any other sources."
+    }
+  },
+  {
+    "question_id": "GT_04",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "justification": {
+      "correctness": "The model answer accurately states that the projected percentage of total travel by bicycle in Skåne in 2030 is 19% and that the current percentage is approximately 17%, matching the expected ground-truth answer in meaning.",
+      "hallucination": "All factual claims made in the model answer are supported by the retrieved chunks, with no unsupported claims present.",
+      "source_drift": "The model answer relies solely on information from the ground-truth document and does not cite or rely on any other sources."
+    }
+  },
+  {
+    "question_id": "GT_05",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "justification": {
+      "correctness": "The model answer accurately reflects the expected ground-truth answer, stating that the percentage of bicycle use is 48% in larger urban areas and 19% in rural areas for trips of 1–2.99 km.",
+      "hallucination": "All factual claims made in the model answer are supported by the retrieved chunks, specifically the data regarding bicycle use percentages in urban and rural areas.",
+      "source_drift": "The model answer relies solely on information from the ground-truth document, without referencing any other sources."
+    }
+  },
+  {
+    "question_id": "GT_06",
+    "correctness": 0,
+    "hallucination": 0,
+    "source_drift": 0,
+    "justification": {
+      "correctness": "The model answer states that cars represent 64% and collective transport represents 30%, which does not match the expected ground-truth answer of 55.1% for cars and 15.7% for collective transport.",
+      "hallucination": "All factual claims in the model answer are supported by the retrieved chunks, as they provide the percentages for cars and collective transport for intermediate-distance trips.",
+      "source_drift": "The model answer relies solely on the information provided in the retrieved chunks and does not cite any external sources."
+    }
+  },
+  {
+    "question_id": "GT_07",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "justification": {
+      "correctness": "The model answer does not match the expected ground-truth answer in meaning. The expected answer states that older residents travel significantly more by car, while younger residents use public transport to a greater extent. The model answer suggests that younger residents often rely more on cars and that older residents may use cars less frequently, which contradicts the expected answer.",
+      "hallucination": "The model answer contains factual claims about travel behavior patterns that are not supported by the retrieved chunks. For example, it states that younger residents often rely more on cars, which is not supported by the provided information.",
+      "source_drift": "The model answer does not rely on or cite information from a document other than the ground-truth document, as it is based solely on the retrieved chunks."
+    }
+  },
+  {
+    "question_id": "GT_08",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "justification": {
+      "correctness": "The model answer does not provide the specific percentage distribution for transportation modes used for shopping ('Inköp') as requested, which is necessary to match the expected ground-truth answer.",
+      "hallucination": "The model answer claims that the search did not provide specific percentage distributions, which is a factual claim not supported by the retrieved chunks, as they do not mention anything about the absence of data for shopping.",
+      "source_drift": "The model answer does not reference any document other than the ground-truth document, as it only suggests referring to the official survey report or database."
+    }
+  },
+  {
+    "question_id": "GT_09",
+    "correctness": 0,
+    "hallucination": 0,
+    "source_drift": 0,
+    "justification": {
+      "correctness": "The model answer states that buses account for 18% of motorized trips and cars account for 64%. However, the expected ground-truth answer indicates that more than 20% of motorized trips are made by bus and more than three-quarters (over 75%) are made by car. Therefore, the model answer does not match the expected answer in meaning.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks. All percentages mentioned (18% for buses and 64% for cars) are directly supported by the retrieved information.",
+      "source_drift": "The model answer relies solely on the information provided in the retrieved chunks and does not cite or rely on any external documents."
+    }
+  },
+  {
+    "question_id": "GT_10",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "justification": {
+      "correctness": "The model answer accurately reflects the expected ground-truth answer by stating that students use public transport more than wage earners and self-employed individuals, and that they travel by car less than these other groups.",
+      "hallucination": "All factual claims made in the model answer are supported by the retrieved chunks, as they discuss the travel choices of students, wage earners, and self-employed individuals without introducing unsupported information.",
+      "source_drift": "The model answer relies solely on the information provided in the ground-truth document and does not reference any external sources."
+    }
+  },
+  {
+    "question_id": "GT_11",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "justification": {
+      "correctness": "The model answer accurately reflects the expected ground-truth answer, stating that the share of walking trips must increase from 7% to 11%.",
+      "hallucination": "All factual claims in the model answer are supported by the retrieved chunks, which confirm the increase in walking trip percentages.",
+      "source_drift": "The model answer relies solely on information from the ground-truth document, with no references to other documents."
+    }
+  }
+]

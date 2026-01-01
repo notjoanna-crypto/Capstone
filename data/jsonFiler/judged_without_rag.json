@@ -1,0 +1,164 @@
+{
+  "run_info": {
+    "run_type": "judge_without_rag",
+    "judge_model": "gpt-4o-mini",
+    "ground_truth_file": "data/ground_truth_final.json",
+    "baseline_file": "data/without_rag_answers.json"
+  },
+  "results": [
+    {
+      "question_id": "GT_01",
+      "question": "According to the Skåne travel survey, what is the target market share for public transport, and what current percentage is reported?",
+      "expected_answer": "The target market share for public transport is 40 percent, while the current percentage is 28 percent.",
+      "generated_answer": "The Skåne travel survey indicates a target market share for public transport of 30%. Currently, the reported percentage is around 20%.",
+      "correctness": 0,
+      "hallucination": 1,
+      "justification": {
+        "correctness": "The model answer does not match the expected ground-truth answer in meaning, as it provides different values for both the target market share and the current percentage.",
+        "hallucination": "The model answer introduces incorrect factual information by stating the target market share as 30% and the current percentage as 20%, which are not supported by the expected answer."
+      },
+      "error": null,
+      "judge_model": "gpt-4o-mini"
+    },
+    {
+      "question_id": "GT_02",
+      "question": "In the Skåne travel survey, what percentage of women and what percentage of men use bicycles when transport mode is analysed by gender?",
+      "expected_answer": "Women use bicycles 16.9% of the time, while men use bicycles 16.1% of the time.",
+      "generated_answer": "I don't have access to specific data, such as the Skåne travel survey results. To find the percentages of women and men who use bicycles as a transport mode, you would need to refer to the actual survey results or relevant reports from the organization that conducted the study. If you can provide specific data or findings, I can help you analyze or interpret that information!",
+      "correctness": 0,
+      "hallucination": 0,
+      "justification": {
+        "correctness": "The model answer does not match the expected ground-truth answer in meaning, as it does not provide the specific percentages for women and men using bicycles.",
+        "hallucination": "The model answer does not introduce any incorrect or fabricated factual information; it simply states a lack of access to the data."
+      },
+      "error": null,
+      "judge_model": "gpt-4o-mini"
+    },
+    {
+      "question_id": "GT_03",
+      "question": "According to the Skåne travel survey data, which mode of transportation has the highest usage share for trips between 10 and 24.99 km?",
+      "expected_answer": "Car",
+      "generated_answer": "Based on the Skåne travel survey data, the mode of transportation with the highest usage share for trips between 10 and 24.99 km is typically the car. If you have specific details or numbers from the survey, I can help analyze them further!",
+      "correctness": 1,
+      "hallucination": 0,
+      "justification": {
+        "correctness": "The model answer states that the car is the mode of transportation with the highest usage share for trips between 10 and 24.99 km, which matches the expected ground-truth answer.",
+        "hallucination": "The model answer does not introduce any incorrect or fabricated information; it is consistent with the expected answer."
+      },
+      "error": null,
+      "judge_model": "gpt-4o-mini"
+    },
+    {
+      "question_id": "GT_04",
+      "question": "In Skåne, what share of total travel is projected to be by bicycle in 2030, and how does this compare to the current bicycle travel share reported in the survey?",
+      "expected_answer": "The projected percentage of total travel by bicycle in Skane in 2030 is 19 percent, which is an increase from the current percentage of approximately 17 percent.",
+      "generated_answer": "In Skåne, the share of total travel projected to be by bicycle in 2030 is 16%. The current bicycle travel share reported in the survey is 9%. This indicates an increase in the proportion of travel by bicycle, reflecting a growing trend towards cycling in the region.",
+      "correctness": 0,
+      "hallucination": 1,
+      "justification": {
+        "correctness": "The model answer does not match the expected ground-truth answer in meaning, as it provides incorrect percentages for both the projected share in 2030 and the current share.",
+        "hallucination": "The model answer introduces incorrect factual information by stating that the projected share is 16% and the current share is 9%, which are not supported by the expected answer."
+      },
+      "error": null,
+      "judge_model": "gpt-4o-mini"
+    },
+    {
+      "question_id": "GT_05",
+      "question": "According to the Skåne travel survey, what is the percentage of bicycle use for trips of 1–2.99 km in larger towns compared to rural areas for the same distance?",
+      "expected_answer": "In larger towns, the percentage of bicycle use is 48%, while in rural areas, it is 19%.",
+      "generated_answer": "According to the Skåne travel survey, the percentage of bicycle use for trips of 1–2.99 km is 24% in larger towns, compared to 9% in rural areas for the same distance.",
+      "correctness": 0,
+      "hallucination": 1,
+      "justification": {
+        "correctness": "The model answer does not match the expected ground-truth answer in meaning, as it provides different percentages for bicycle use in both larger towns and rural areas.",
+        "hallucination": "The model answer introduces incorrect factual information by stating 24% for larger towns and 9% for rural areas, which are not supported by the expected answer."
+      },
+      "error": null,
+      "judge_model": "gpt-4o-mini"
+    },
+    {
+      "question_id": "GT_06",
+      "question": "In the Skåne travel survey’s breakdown of motorised transport modes, what percentage is represented by cars compared to collective transport modes?",
+      "expected_answer": "Cars represent 55.1% while collective transport modes represent 15.7%.",
+      "generated_answer": "To provide an accurate answer, I would need the specific data from the Skåne travel survey regarding the percentages of motorized transport modes, including cars and collective transport modes. If you can share that information or any relevant details, I'll be able to help you calculate the percentage comparison.",
+      "correctness": 0,
+      "hallucination": 0,
+      "justification": {
+        "correctness": "The model answer does not match the expected ground-truth answer in meaning, as it does not provide the percentages for cars and collective transport modes.",
+        "hallucination": "The model answer does not introduce any incorrect or fabricated factual information; it simply states a need for data."
+      },
+      "error": null,
+      "judge_model": "gpt-4o-mini"
+    },
+    {
+      "question_id": "GT_07",
+      "question": "Based on the Skåne travel survey, how does travel behaviour differ between older and younger residents in terms of car use and public transport use?",
+      "expected_answer": "Older residents travel significantly more by car, while younger residents use public transport to a greater extent.",
+      "generated_answer": "Based on travel surveys like the Skåne travel survey, travel behavior often shows distinct differences between older and younger residents. Generally, the findings can be summarized as follows:\n\n1. **Car Use:**\n   - **Older Residents**: Tend to use cars more frequently for their daily travel needs. This preference is often influenced by factors such as mobility, convenience, and accessibility, as older individuals may find driving offers more comfort and flexibility.\n   - **Younger Residents**: While they also use cars, younger individuals might rely on them less frequently, often opting for alternative modes of transport like cycling or ridesharing services. Their car usage may be driven by lifestyle choices or financial considerations.\n\n2. **Public Transport Use:**\n   - **Older Residents**: May show lower levels of public transport use compared to younger people, possibly due to limited availability of services that meet their needs or preferences for direct and comfortable travel options.\n   - **Younger Residents**: Generally have higher public transport usage rates. They are often more open to using buses, trains, and trams, which align with their lifestyles, especially if they are in urban areas where public transport is accessible and affordable.\n\nIn summary, older residents in Skåne tend to prefer car use for travel, while younger residents are more inclined to utilize public transport, reflecting differences in mobility preferences and lifestyle factors.",
+      "correctness": 1,
+      "hallucination": 0,
+      "justification": {
+        "correctness": "The model answer accurately reflects the expected ground-truth answer by stating that older residents travel more by car and younger residents use public transport to a greater extent.",
+        "hallucination": "The model answer does not introduce any incorrect or fabricated information; it is consistent with the expected answer."
+      },
+      "error": null,
+      "judge_model": "gpt-4o-mini"
+    },
+    {
+      "question_id": "GT_08",
+      "question": "In the Skåne travel survey, what is the percentage distribution of transportation modes used for the purpose of “Inköp” (shopping)?",
+      "expected_answer": "11% by bicycle, 14% by car, 63% by bus, 10% by plane, and 2% by other.",
+      "generated_answer": "To provide the percentage distribution of transportation modes used for the purpose of \"Inköp\" (shopping) in the Skåne travel survey, I would need either the specific data or a detailed breakdown from that survey. If you have access to the survey results or can share any relevant numeric data, please provide it, and I'll help you analyze it further!",
+      "correctness": 0,
+      "hallucination": 0,
+      "justification": {
+        "correctness": "The model answer does not match the expected ground-truth answer in meaning, as it does not provide the percentage distribution of transportation modes.",
+        "hallucination": "The model answer does not contain any incorrect or fabricated factual information; it simply states a need for data."
+      },
+      "error": null,
+      "judge_model": "gpt-4o-mini"
+    },
+    {
+      "question_id": "GT_09",
+      "question": "According to the Skåne travel survey, what share of motorised trips are made by bus compared to trips made by car as either a driver or passenger?",
+      "expected_answer": "More than 20 percent of motorized trips are made by bus, while more than three-quarters of motorized trips are made by car.",
+      "generated_answer": "I'm unable to access specific data like the Skåne travel survey results directly. However, I can help you analyze or understand the context if you provide me with the figures or details from the survey. Would you like to share that information?",
+      "correctness": 0,
+      "hallucination": 0,
+      "justification": {
+        "correctness": "The model answer does not match the expected ground-truth answer in meaning, as it does not provide any information about the share of motorized trips made by bus or car.",
+        "hallucination": "The model answer does not introduce any incorrect or fabricated factual information; it simply states an inability to access the data."
+      },
+      "error": null,
+      "judge_model": "gpt-4o-mini"
+    },
+    {
+      "question_id": "GT_10",
+      "question": "In the Skåne travel survey, how do students’ travel choices compare with those of wage earners and self-employed individuals regarding public transport and car usage?",
+      "expected_answer": "Students choose to travel by public transport more than wage earners and self-employed individuals, and they also travel by car less than other employment groups.",
+      "generated_answer": "In the Skåne travel survey, students typically show a preference for public transport compared to wage earners and self-employed individuals, who may rely more on cars for their commuting needs. Students often favor public transport due to factors such as budget constraints and lifestyle choices, while wage earners and self-employed individuals might prioritize the convenience and flexibility of car usage. \n\nOverall, students use public transport more extensively, while wage earners and the self-employed exhibit a higher tendency to use cars for their daily travel. This reflects broader trends in commuting habits, where demographic and occupational factors influence transportation choices.",
+      "correctness": 1,
+      "hallucination": 0,
+      "justification": {
+        "correctness": "The model answer accurately reflects the expected ground-truth answer by stating that students prefer public transport over wage earners and self-employed individuals, and that they use cars less than these groups.",
+        "hallucination": "The model answer does not introduce any incorrect or fabricated information; it remains consistent with the expected answer."
+      },
+      "error": null,
+      "judge_model": "gpt-4o-mini"
+    },
+    {
+      "question_id": "GT_11",
+      "question": "According to the Skåne travel survey targets for 2030, from what percentage to what percentage must the share of walking trips increase to meet the goal?",
+      "expected_answer": "The share of walking trips needs to increase from 7 percent to 11 percent.",
+      "generated_answer": "In the Skåne travel survey targets for 2030, the share of walking trips needs to increase from 17% to 20% to meet the goal.",
+      "correctness": 0,
+      "hallucination": 1,
+      "justification": {
+        "correctness": "The model answer does not match the expected ground-truth answer in meaning, as it states different percentages for the share of walking trips.",
+        "hallucination": "The model answer introduces incorrect factual information by stating that the share of walking trips needs to increase from 17% to 20%, which is not supported by the expected answer."
+      },
+      "error": null,
+      "judge_model": "gpt-4o-mini"
+    }
+  ]
+}

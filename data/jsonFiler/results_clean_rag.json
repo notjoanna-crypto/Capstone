@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "GT_01",
+    "question": "According to the Skåne travel survey, what is the target market share for public transport, and what current percentage is reported?",
+    "expected_answer": "The target market share for public transport is 40 percent, while the current percentage is 28 percent.",
+    "generated_answer": "According to the Skåne travel survey, the target market share for public transport is set at 40% of motorized journeys by 2030. Currently, the reported percentage for public transport is 28%.",
+    "retrieved_chunks": [
+      {
+        "page": 3,
+        "source": "resvaneundersokning",
+        "text": "Resultaten tyder p: att andelen resor med buss och tfg har ökat jämfört med 2018. positiv trend. Även när det gäller resor med buss framträder en positiv trend; df ungefär 13 procent av samtliga resor är med buss. Resultatet pekar pf att omkring 12 procent av alla resor i Skäne sker med tIg. Andelen resor med bil verkar ha minskat jämfört med tidigare Ir och 2023 gjordes omkring 49 procent av alla resor med bil. Däremot verkar andelen relativt oförändrad i jämförelse med tidigare undersökningar"
+      },
+      {
+        "page": 50,
+        "source": "resvaneundersokning",
+        "text": "Resultaten tyder pë att resor med buss och tfg har ökat jämfört med 2018. Som tidigare nämnt finns màl om att öka kollektivtrafikens marknadsandel till 40 procent av de motoriserade resorna i Skine till 2030. Enligt 2023 Irs undersökning skulle kollektivtrafikens terades denna siffra som 28 procent_"
+      },
+      {
+        "page": 73,
+        "source": "resvaneundersokning",
+        "text": "Tabell 9.1. Färdmedelsfördelning i procent för Malmö, Helsingborg och Lund.\n\n"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_02",
+    "question": "In the Skåne travel survey, what percentage of women and what percentage of men use bicycles when transport mode is analysed by gender?",
+    "expected_answer": "Women use bicycles 16.9% of the time, while men use bicycles 16.1% of the time.",
+    "generated_answer": "In the Skåne travel survey, the percentages for bicycle use by gender are approximately:\n\n- **Women:** 16.9%\n- **Men:** 16.1%\n\nThese figures indicate the proportion of women and men who use bicycles as their mode of transport.",
+    "retrieved_chunks": [
+      {
+        "page": 51,
+        "source": "resvaneundersokning",
+        "text": "Figur 6.2. Färdmedelsfördelning fördelat pf kön: r=43 486\n\n Kvinna\n\n Man\n\n 52.49\n\n 46.3%\n\n 16.9% 16.1%\n\n 15.1%\n\n 11.39\n\n 11.6% 12.1%\n\n 8.49\n\n 5.9%\n\n 1.6%\n\n 2.2%\n\n Cykel\n\n Bil\n\n Buss\n\n Annat\n\n"
+      },
+      {
+        "page": 50,
+        "source": "resvaneundersokning",
+        "text": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är andelen som cyklar ungefär 17 procent; vilket skulle tyda pë en positiv trendoch att mälet om att cykelns andel av det totala resandet 2030 ska vara 19 procent är inom räckliknar den önskade ligare. Däremot tyder resultaten pë att andelen av resor till fots minskat nägot jämfört med milen till 2030. Denna typ av jämförelser innefattar en ganska stor osäkerhet. Framför allt om respondenterna i större utsträckning glömt att redovisa kortare ging- och cykelresor (eftersom de gjorts flera dagar tidigare) . ytter -"
+      },
+      {
+        "page": 71,
+        "source": "resvaneundersokning",
+        "text": "Figuren tyder p vissa skillnader i färdmedelsfördelning mellan kommunerna. För de större kommuner sfsom Malmö och Lund är andelen bilresor betydligt samtidigt som andelen resor med cykel är högre jämfört med övriga kommuner:. Till exempel gör de boende i Malmö och Lund omkring 30 procent av resorna med bil, vilket är minst bland alla kommuner. Samtidigt gör samma grupp ungefär 27 procent av resorna med cykel som färdmedel, vilket är högst i Skine. lägre"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_03",
+    "question": "According to the Skåne travel survey data, which mode of transportation has the highest usage share for trips between 10 and 24.99 km?",
+    "expected_answer": "Car",
+    "generated_answer": "According to the Skåne travel survey data, for trips between 10 and 24.99 km, the mode of transportation with the highest usage share is the car. This is particularly notable in larger municipalities like Malmö and Lund, where a significant portion of trips are still made by car, despite a relatively high percentage of trips made by bicycle compared to other regions.",
+    "retrieved_chunks": [
+      {
+        "page": 65,
+        "source": "resvaneundersokning",
+        "text": "Tabell 7.1 visar transportarbetet av Skines befolkning i personkilometer efter typ av ort och färdmedel per innefattar boende i orterna Malmö, Helsingborg eller Lund medan bostadsort med fler än 4000 invinare kategoriseras som Tätort och övriga kategoriseras som Landsbygd\" . Totalerna för färdmedel i helhet visas i kolumnen längst till höger medan totalerna för ortstyp visas pë den sista raden. Cellen längst ner och till höger anger det totala antalet personkilometrar i undersökningen. Alla värden i tabellen är avrundade till hela hundratal."
+      },
+      {
+        "page": 86,
+        "source": "resvaneundersokning",
+        "text": "Tabell 10.3 visar de tjugo största reserelationerna med start och/eller slut i Skäne där resor har gjorts med ett trafikmedel som kategoriserats som kollektivtrafik. Dessa färdmedel"
+      },
+      {
+        "page": 71,
+        "source": "resvaneundersokning",
+        "text": "Figuren tyder p vissa skillnader i färdmedelsfördelning mellan kommunerna. För de större kommuner sfsom Malmö och Lund är andelen bilresor betydligt samtidigt som andelen resor med cykel är högre jämfört med övriga kommuner:. Till exempel gör de boende i Malmö och Lund omkring 30 procent av resorna med bil, vilket är minst bland alla kommuner. Samtidigt gör samma grupp ungefär 27 procent av resorna med cykel som färdmedel, vilket är högst i Skine. lägre"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_04",
+    "question": "In Skåne, what share of total travel is projected to be by bicycle in 2030, and how does this compare to the current bicycle travel share reported in the survey?",
+    "expected_answer": "The projected percentage of total travel by bicycle in Skane in 2030 is 19 percent, which is an increase from the current percentage of approximately 17 percent.",
+    "generated_answer": "In Skåne, the share of total travel projected to be by bicycle in 2030 is 19%. Currently, the bicycle travel share is approximately 17%. This indicates a positive trend, as the goal aims for an increase to 19% over the next several years.",
+    "retrieved_chunks": [
+      {
+        "page": 50,
+        "source": "resvaneundersokning",
+        "text": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är andelen som cyklar ungefär 17 procent; vilket skulle tyda pë en positiv trendoch att mälet om att cykelns andel av det totala resandet 2030 ska vara 19 procent är inom räckliknar den önskade ligare. Däremot tyder resultaten pë att andelen av resor till fots minskat nägot jämfört med milen till 2030. Denna typ av jämförelser innefattar en ganska stor osäkerhet. Framför allt om respondenterna i större utsträckning glömt att redovisa kortare ging- och cykelresor (eftersom de gjorts flera dagar tidigare) . ytter -"
+      },
+      {
+        "page": 6,
+        "source": "resvaneundersokning",
+        "text": "Skines regionala utvecklingsstrategi (Det öppna Skine 2030), Regionplan för Skine 2022 om blandannat en önskad färdmedelsfördelning för ären 2030 och 2050. Milsättningen 2050 är att en tredjedel av samtliga resor är via gang eller cykel, en tredjedel med kollektivtrafik och en tredjedel med bil. Vidare finns även mël om att transportsektorn ska vara fossilbränslefri 2050, att öka tillgängligheten; att öka kollektivtrafikens marknadsandel till 40 procent av de motoriserade resorna och att stärka Skine som cykelregion."
+      },
+      {
+        "page": 71,
+        "source": "resvaneundersokning",
+        "text": "Figuren tyder p vissa skillnader i färdmedelsfördelning mellan kommunerna. För de större kommuner sfsom Malmö och Lund är andelen bilresor betydligt samtidigt som andelen resor med cykel är högre jämfört med övriga kommuner:. Till exempel gör de boende i Malmö och Lund omkring 30 procent av resorna med bil, vilket är minst bland alla kommuner. Samtidigt gör samma grupp ungefär 27 procent av resorna med cykel som färdmedel, vilket är högst i Skine. lägre"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_05",
+    "question": "According to the Skåne travel survey, what is the percentage of bicycle use for trips of 1–2.99 km in larger towns compared to rural areas for the same distance?",
+    "expected_answer": "In larger towns, the percentage of bicycle use is 48%, while in rural areas, it is 19%.",
+    "generated_answer": "According to the Skåne travel survey, the percentage of bicycle use for trips of 1–2.99 km is as follows:\n\n- In larger towns: **23%**\n- In rural areas: **12%**\n\nSo, there is a higher percentage of bicycle use in larger towns compared to rural areas for trips of that distance.",
+    "retrieved_chunks": [
+      {
+        "page": 71,
+        "source": "resvaneundersokning",
+        "text": "Figuren tyder p vissa skillnader i färdmedelsfördelning mellan kommunerna. För de större kommuner sfsom Malmö och Lund är andelen bilresor betydligt samtidigt som andelen resor med cykel är högre jämfört med övriga kommuner:. Till exempel gör de boende i Malmö och Lund omkring 30 procent av resorna med bil, vilket är minst bland alla kommuner. Samtidigt gör samma grupp ungefär 27 procent av resorna med cykel som färdmedel, vilket är högst i Skine. lägre"
+      },
+      {
+        "page": 65,
+        "source": "resvaneundersokning",
+        "text": "Tabell 7.1 visar transportarbetet av Skines befolkning i personkilometer efter typ av ort och färdmedel per innefattar boende i orterna Malmö, Helsingborg eller Lund medan bostadsort med fler än 4000 invinare kategoriseras som Tätort och övriga kategoriseras som Landsbygd\" . Totalerna för färdmedel i helhet visas i kolumnen längst till höger medan totalerna för ortstyp visas pë den sista raden. Cellen längst ner och till höger anger det totala antalet personkilometrar i undersökningen. Alla värden i tabellen är avrundade till hela hundratal."
+      },
+      {
+        "page": 57,
+        "source": "resvaneundersokning",
+        "text": "Figur 6.9. Färdmedelsfördelning per typ av ort och reslängd: r=41 818\n\n Gáng\n\n Cykel\n\n Bil\n\n Buss\n\n Annat\n\n Landsbygd <1 km\n\n 22\n\n 13\n\n 60\n\n Tätort <1 km\n\n 30\n\n 22\n\n 41\n\n Större tätort <1\n\n 48\n\n 24\n\n [10\n\n Landsbygd 1-2.99 km\n\n 12\n\n 19\n\n 62\n\n Tätort 1-2.99 km\n\n 13\n\n 35\n\n 45\n\n Större tätort 1-2.99 km\n\n 23\n\n 17\n\n 12\n\n Landsbygd 3-4.99 km\n\n 10\n\n 81\n\n Tätort 3-4.99 km\n\n 23\n\n 59\n\n 11\n\n Större tätort 3-4.99 km\n\n 43\n\n 24\n\n Landsbygd 5-9.99 km\n\n 8\n\n 80\n\n 8\n\n 2\n\n Tätort 5-9.99 km\n\n 12\n\n 67\n\n 16\n\n 3\n\n Större tätort 5-9.99 km\n\n 26\n\n 38\n\n [28\n\n 5\n\n Landsbygd 10-24.99 km\n\n 78\n\n 10\n\n 6\n\n Tätort 10-24.99 km\n\n 65\n\n 17\n\n 12\n\n Större tätort 10-24.99 km\n\n 48\n\n 27\n\n 17\n\n Landsbygd >25 km\n\n 69\n\n 8\n\n 21\n\n Tätort >25\n\n 56\n\n 33\n\n Större tätort >25\n\n 43\n\n 6\n\n 48\n\n 0%\n\n 109\n\n 20%\n\n 30%\n\n 40%\n\n 509\n\n 60%\n\n 709\n\n 909\n\n 1009\n\n km\n\n km\n\n km\n\n"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_06",
+    "question": "In the Skåne travel survey’s breakdown of motorised transport modes, what percentage is represented by cars compared to collective transport modes?",
+    "expected_answer": "Cars represent 55.1% while collective transport modes represent 15.7%.",
+    "generated_answer": "In the Skåne travel survey, cars account for around 49% of all trips, while collective transport modes (which include buses and trains) represent approximately 13% for buses and 12% for trains. Therefore, collective transport modes together make up about 25% of the trips. Hence, cars significantly outweigh collective transport modes, with cars representing nearly twice the percentage of collective transport.",
+    "retrieved_chunks": [
+      {
+        "page": 3,
+        "source": "resvaneundersokning",
+        "text": "Resultaten tyder p: att andelen resor med buss och tfg har ökat jämfört med 2018. positiv trend. Även när det gäller resor med buss framträder en positiv trend; df ungefär 13 procent av samtliga resor är med buss. Resultatet pekar pf att omkring 12 procent av alla resor i Skäne sker med tIg. Andelen resor med bil verkar ha minskat jämfört med tidigare Ir och 2023 gjordes omkring 49 procent av alla resor med bil. Däremot verkar andelen relativt oförändrad i jämförelse med tidigare undersökningar"
+      },
+      {
+        "page": 59,
+        "source": "resvaneundersokning",
+        "text": "Figur 6.12. Färdmedelsfördelning av motoriserade färdmedel: r=28 335\n\n Ej kollektiv\n\n Kollektiv\n\n 55.1%\n\n 15.7%\n\n 10.0%\n\n 8.7%\n\n 8.7%\n\n 0.7%\n\n 0.1%\n\n 0.2%\n\n 0.5%\n\n 0.3%\n\n Bil\n\n Bil\n\n MCI\n\n A-traktorl Region -\n\n Stads -\n\n Spàr-\n\n Färd-\n\n Taxi\n\n (förare)\n\n (pass.)\n\n Moped\n\n EPA\n\n buss\n\n buss\n\n vagn\n\n tjänst\n\n"
+      },
+      {
+        "page": 71,
+        "source": "resvaneundersokning",
+        "text": "Figuren tyder p vissa skillnader i färdmedelsfördelning mellan kommunerna. För de större kommuner sfsom Malmö och Lund är andelen bilresor betydligt samtidigt som andelen resor med cykel är högre jämfört med övriga kommuner:. Till exempel gör de boende i Malmö och Lund omkring 30 procent av resorna med bil, vilket är minst bland alla kommuner. Samtidigt gör samma grupp ungefär 27 procent av resorna med cykel som färdmedel, vilket är högst i Skine. lägre"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_07",
+    "question": "Based on the Skåne travel survey, how does travel behaviour differ between older and younger residents in terms of car use and public transport use?",
+    "expected_answer": "Older residents travel significantly more by car, while younger residents use public transport to a greater extent.",
+    "generated_answer": "The Skåne travel survey highlights distinct differences in travel behavior between older and younger residents, particularly regarding car use and public transport.\n\n1. **Car Use**:\n   - Older residents tend to rely more on cars for their travel. This demographic is likely to prefer the convenience and comfort of driving, especially for longer distances.\n   - Younger residents, on the other hand, show a greater inclination to use alternative modes of transport, which may include biking, walking, or public transport.\n\n2. **Public Transport Use**:\n   - Younger individuals are generally more inclined to use public transportation. This trend is partly due to urban lifestyles, with younger residents living in areas where public transport is more accessible and integrated into their daily routines.\n   - Older residents may use public transport less frequently, often due to preferences for driving or perceived challenges associated with public transport, such as accessibility and convenience.\n\nOverall, while older residents exhibit a stronger propensity for car travel, younger residents demonstrate a greater tendency to utilize public transport and alternative methods of transportation. This reflects broader behavioral trends influenced by factors like lifestyle, convenience, and urban infrastructure.",
+    "retrieved_chunks": [
+      {
+        "page": 71,
+        "source": "resvaneundersokning",
+        "text": "Figuren tyder p vissa skillnader i färdmedelsfördelning mellan kommunerna. För de större kommuner sfsom Malmö och Lund är andelen bilresor betydligt samtidigt som andelen resor med cykel är högre jämfört med övriga kommuner:. Till exempel gör de boende i Malmö och Lund omkring 30 procent av resorna med bil, vilket är minst bland alla kommuner. Samtidigt gör samma grupp ungefär 27 procent av resorna med cykel som färdmedel, vilket är högst i Skine. lägre"
+      },
+      {
+        "page": 3,
+        "source": "resvaneundersokning",
+        "text": "Resultaten tyder p: att andelen resor med buss och tfg har ökat jämfört med 2018. positiv trend. Även när det gäller resor med buss framträder en positiv trend; df ungefär 13 procent av samtliga resor är med buss. Resultatet pekar pf att omkring 12 procent av alla resor i Skäne sker med tIg. Andelen resor med bil verkar ha minskat jämfört med tidigare Ir och 2023 gjordes omkring 49 procent av alla resor med bil. Däremot verkar andelen relativt oförändrad i jämförelse med tidigare undersökningar"
+      },
+      {
+        "page": 73,
+        "source": "resvaneundersokning",
+        "text": "Det finns vissa skillnader i denten bor. Tabell 9.1redovisar färdmedelsfördelningen i Malmö, Helsingborg och Lund. Resultatet visar att andelen resor till fots eller cykel är högre för större tätorter relativt till de andra kategorierna. Samtidigt är andelen resor gjorda med bil för tätorter och pI landsbygden större jämfört med de större tätorterna."
+      }
+    ]
+  },
+  {
+    "question_id": "GT_08",
+    "question": "In the Skåne travel survey, what is the percentage distribution of transportation modes used for the purpose of “Inköp” (shopping)?",
+    "expected_answer": "11% by bicycle, 14% by car, 63% by bus, 10% by plane, and 2% by other.",
+    "generated_answer": "I'm unable to provide specific data from the Skåne travel survey regarding the percentage distribution of transportation modes used for shopping (\"Inköp\"). You may need to consult the survey report or relevant tables for the exact figures. If you have access to those tables, I can help interpret the data!",
+    "retrieved_chunks": [
+      {
+        "page": 74,
+        "source": "resvaneundersokning",
+        "text": "Tabell 9.2. Färdmedelsfördelning i procent för respektive kommun Skäne per typ av ort.\n\n"
+      },
+      {
+        "page": 73,
+        "source": "resvaneundersokning",
+        "text": "Det finns vissa skillnader i denten bor. Tabell 9.1redovisar färdmedelsfördelningen i Malmö, Helsingborg och Lund. Resultatet visar att andelen resor till fots eller cykel är högre för större tätorter relativt till de andra kategorierna. Samtidigt är andelen resor gjorda med bil för tätorter och pI landsbygden större jämfört med de större tätorterna."
+      },
+      {
+        "page": 65,
+        "source": "resvaneundersokning",
+        "text": "Tabell 7.1 visar transportarbetet av Skines befolkning i personkilometer efter typ av ort och färdmedel per innefattar boende i orterna Malmö, Helsingborg eller Lund medan bostadsort med fler än 4000 invinare kategoriseras som Tätort och övriga kategoriseras som Landsbygd\" . Totalerna för färdmedel i helhet visas i kolumnen längst till höger medan totalerna för ortstyp visas pë den sista raden. Cellen längst ner och till höger anger det totala antalet personkilometrar i undersökningen. Alla värden i tabellen är avrundade till hela hundratal."
+      }
+    ]
+  },
+  {
+    "question_id": "GT_09",
+    "question": "According to the Skåne travel survey, what share of motorised trips are made by bus compared to trips made by car as either a driver or passenger?",
+    "expected_answer": "More than 20 percent of motorized trips are made by bus, while more than three-quarters of motorized trips are made by car.",
+    "generated_answer": "According to the Skåne travel survey, more than 75% of motorised trips are made by car (as either a driver or passenger), while bus trips account for just over 13% of motorised trips. Thus, the share of trips made by bus is significantly lower compared to those made by car.",
+    "retrieved_chunks": [
+      {
+        "page": 3,
+        "source": "resvaneundersokning",
+        "text": "Resultaten tyder p: att andelen resor med buss och tfg har ökat jämfört med 2018. positiv trend. Även när det gäller resor med buss framträder en positiv trend; df ungefär 13 procent av samtliga resor är med buss. Resultatet pekar pf att omkring 12 procent av alla resor i Skäne sker med tIg. Andelen resor med bil verkar ha minskat jämfört med tidigare Ir och 2023 gjordes omkring 49 procent av alla resor med bil. Däremot verkar andelen relativt oförändrad i jämförelse med tidigare undersökningar"
+      },
+      {
+        "page": 71,
+        "source": "resvaneundersokning",
+        "text": "Figuren tyder p vissa skillnader i färdmedelsfördelning mellan kommunerna. För de större kommuner sfsom Malmö och Lund är andelen bilresor betydligt samtidigt som andelen resor med cykel är högre jämfört med övriga kommuner:. Till exempel gör de boende i Malmö och Lund omkring 30 procent av resorna med bil, vilket är minst bland alla kommuner. Samtidigt gör samma grupp ungefär 27 procent av resorna med cykel som färdmedel, vilket är högst i Skine. lägre"
+      },
+      {
+        "page": 59,
+        "source": "resvaneundersokning",
+        "text": "Mer än tre av fyra resor med ett motoriserat färdsätt utgörs av bil, antingen som förare eller passagerare. Därefter är bussresor det vanligaste motoriserade färdmedlet med drygt 20 andelar av den motoriserade trafiken. Notera att elcykel har definierats som ett icke-motoriserat färdmedel och alltsë inte är inkluderat. Staplarna summerar till 10O procent."
+      }
+    ]
+  },
+  {
+    "question_id": "GT_10",
+    "question": "In the Skåne travel survey, how do students’ travel choices compare with those of wage earners and self-employed individuals regarding public transport and car usage?",
+    "expected_answer": "Students choose to travel by public transport more than wage earners and self-employed individuals, and they also travel by car less than other employment groups.",
+    "generated_answer": "In the Skåne travel survey, students tend to utilize public transport more frequently than wage earners and self-employed individuals. They travel by bus and train at a higher rate, while their usage of cars is lower compared to these other groups. \n\nThe survey shows a general trend of increasing public transport usage (around 13% of all trips by bus and about 12% by train), while car travel has decreased, with approximately 49% of all trips made by car in 2023. This implies that students are more inclined to use public transport compared to wage earners and self-employed individuals, who rely more on cars for their travel.",
+    "retrieved_chunks": [
+      {
+        "page": 53,
+        "source": "resvaneundersokning",
+        "text": "Figur 6.5 visar att invanarna reser olika beroende pë sin huvudsakliga sysselsättning. tella axeln anges färdmedelsprocenten kumulativt. Studenter väljer i högre utsträckning reser ocksë i lägre grad än övriga sysselsättningsgrupper med bil."
+      },
+      {
+        "page": 60,
+        "source": "resvaneundersokning",
+        "text": "7. Transportarbete"
+      },
+      {
+        "page": 3,
+        "source": "resvaneundersokning",
+        "text": "Resultaten tyder p: att andelen resor med buss och tfg har ökat jämfört med 2018. positiv trend. Även när det gäller resor med buss framträder en positiv trend; df ungefär 13 procent av samtliga resor är med buss. Resultatet pekar pf att omkring 12 procent av alla resor i Skäne sker med tIg. Andelen resor med bil verkar ha minskat jämfört med tidigare Ir och 2023 gjordes omkring 49 procent av alla resor med bil. Däremot verkar andelen relativt oförändrad i jämförelse med tidigare undersökningar"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_11",
+    "question": "According to the Skåne travel survey targets for 2030, from what percentage to what percentage must the share of walking trips increase to meet the goal?",
+    "expected_answer": "The share of walking trips needs to increase from 7 percent to 11 percent.",
+    "generated_answer": "According to the Skåne travel survey targets for 2030, the share of walking trips must increase from a current percentage (not specified in the text) to reach a goal of 33% of all trips being made by walking or cycling combined. Specifically, there is a goal for one-third of all trips to be via walking or cycling. However, the exact starting percentage for walking trips is not mentioned in the text provided.",
+    "retrieved_chunks": [
+      {
+        "page": 50,
+        "source": "resvaneundersokning",
+        "text": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är andelen som cyklar ungefär 17 procent; vilket skulle tyda pë en positiv trendoch att mälet om att cykelns andel av det totala resandet 2030 ska vara 19 procent är inom räckliknar den önskade ligare. Däremot tyder resultaten pë att andelen av resor till fots minskat nägot jämfört med milen till 2030. Denna typ av jämförelser innefattar en ganska stor osäkerhet. Framför allt om respondenterna i större utsträckning glömt att redovisa kortare ging- och cykelresor (eftersom de gjorts flera dagar tidigare) . ytter -"
+      },
+      {
+        "page": 3,
+        "source": "resvaneundersokning",
+        "text": "Resultaten tyder p: att andelen resor med buss och tfg har ökat jämfört med 2018. positiv trend. Även när det gäller resor med buss framträder en positiv trend; df ungefär 13 procent av samtliga resor är med buss. Resultatet pekar pf att omkring 12 procent av alla resor i Skäne sker med tIg. Andelen resor med bil verkar ha minskat jämfört med tidigare Ir och 2023 gjordes omkring 49 procent av alla resor med bil. Däremot verkar andelen relativt oförändrad i jämförelse med tidigare undersökningar"
+      },
+      {
+        "page": 6,
+        "source": "resvaneundersokning",
+        "text": "Skines regionala utvecklingsstrategi (Det öppna Skine 2030), Regionplan för Skine 2022 om blandannat en önskad färdmedelsfördelning för ären 2030 och 2050. Milsättningen 2050 är att en tredjedel av samtliga resor är via gang eller cykel, en tredjedel med kollektivtrafik och en tredjedel med bil. Vidare finns även mël om att transportsektorn ska vara fossilbränslefri 2050, att öka tillgängligheten; att öka kollektivtrafikens marknadsandel till 40 procent av de motoriserade resorna och att stärka Skine som cykelregion."
+      }
+    ]
+  }
+]
