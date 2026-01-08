@@ -1,6 +1,5 @@
 # docker compose exec app python data/ingestcodeONLYRUNONCE/ingest.py
 
-
 import os
 from dotenv import load_dotenv
 
@@ -16,11 +15,12 @@ load_dotenv()
 
 
 # COLLECTION = "my_documents"
-COLLECTION = "resvaneundersokning_document" 
+COLLECTION = "resvaneundersokning_document_v2" 
 VECTOR_NAME = "text-embedding-3-small"
 DIM = 1536
 
-PDF_PATH = "resvaneundersokning.pdf"
+PDF_PATH = "/app/resvaneundersokning_document.pdf"
+
 
 def main():
     # 1) Connect to persistent Qdrant (docker compose service name)

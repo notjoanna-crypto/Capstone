@@ -1,0 +1,1302 @@
+[
+  {
+    "question_id": "Q_001",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer correctly states that 'färdmedelsfördelning' is another term for the distribution of travel modes and explains its meaning, matching the expected ground-truth answer.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are substantiated.",
+      "source_drift": "The model answer relies solely on information from the ground-truth document and does not reference any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly contain the term 'färdmedelsfördelning' and provide context about its meaning, allowing the model answer to be fully supported."
+    }
+  },
+  {
+    "question_id": "Q_002",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that there were six different modes of transport included in the survey, while the expected ground-truth answer is 17. This is a mismatch in meaning.",
+      "hallucination": "The model answer includes a specific number of modes of transport (six) that is not supported by the retrieved chunks, which do not provide this information.",
+      "source_drift": "The model answer does not rely on information from a document other than the ground-truth document, as it is based on the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not explicitly contain the specific and decisive information required to answer the question about the number of different modes of transport, as they do not mention the number 17."
+    }
+  },
+  {
+    "question_id": "Q_003",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that the results are presented in five main categories, while the expected answer indicates six or seven categories. This discrepancy means the model answer does not match the expected ground-truth answer in meaning.",
+      "hallucination": "The model answer includes a factual claim about the number of categories (five) that is not supported by the retrieved chunks, which do not specify the exact number of categories presented in the survey.",
+      "source_drift": "The model answer does not reference any document other than the ground-truth document, as it is based solely on the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not explicitly state the number of categories as six or seven, nor do they confirm the model's claim of five categories, indicating that the necessary information is missing."
+    }
+  },
+  {
+    "question_id": "Q_004",
+    "correctness": 0,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer is missing 'Train' and 'Air' from the expected ground-truth answer, which lists seven types of transport. Therefore, it does not match the expected answer in meaning.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all mentioned modes of transport are present in the chunks.",
+      "source_drift": "The model answer relies solely on the ground-truth document and does not cite any information from other documents.",
+      "correct_chunks": "The retrieved chunks do not explicitly contain all seven types of transport as required by the question. The model answer is missing 'Air' and 'Train', which are not directly stated in the chunks."
+    }
+  },
+  {
+    "question_id": "Q_005",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer accurately reflects the expected ground-truth answer by stating that 'Bil' refers to a car and includes both 'as a driver' and 'as a passenger'.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are directly supported.",
+      "source_drift": "The model answer relies solely on information from the ground-truth document and does not reference any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that 'Bil' refers to 'Car as Driver' and 'Car as Passenger', which matches the required information in the ground-truth answer."
+    }
+  },
+  {
+    "question_id": "Q_006",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not match the expected ground-truth answer in meaning, as it fails to list all the specific modes of transport included in the 'Annat' category.",
+      "hallucination": "The model answer includes 'motorcycle' as part of the 'Annat' category, which is not supported by the retrieved chunks and is not mentioned in the expected ground-truth answer.",
+      "source_drift": "The model answer does not rely on information from any document other than the ground-truth document, as it is based on the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not explicitly contain the specific and decisive information required to answer the question, as they do not list the modes of transport included in the 'Annat' category."
+    }
+  },
+  {
+    "question_id": "Q_007",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer states that 49% of trips were made by car in 2023, which matches the expected ground-truth answer.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are verified.",
+      "source_drift": "The model answer relies solely on information from the ground-truth document and does not reference any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that 49% of trips were made by car in 2023, providing the necessary information directly."
+    }
+  },
+  {
+    "question_id": "Q_008",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer states that 53% of trips were made by car in 2018, which matches the expected ground-truth answer.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are supported.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not cite any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that 53% of trips were made by car in 2018, providing the necessary information directly."
+    }
+  },
+  {
+    "question_id": "Q_009",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer states that 58% of trips were made by car in 2007, which matches the expected ground-truth answer.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are verified.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not reference any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that 58% of trips were made by car in 2007, providing the necessary information directly."
+    }
+  },
+  {
+    "question_id": "Q_010",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer lists the modes of transport as bus, train, and bicycle, which matches the expected ground-truth answer in meaning.",
+      "hallucination": "All factual claims in the model answer are supported by the retrieved chunks, as they provide the same information regarding the percentages of bus, train, and bicycle usage.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not cite any external sources.",
+      "correct_chunks": "The retrieved chunks explicitly contain the necessary information about the modes of transport and their respective percentages, allowing the model answer to be directly verified."
+    }
+  },
+  {
+    "question_id": "Q_011",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer states that bus and train travel have increased compared to 2018, which matches the expected ground-truth answer.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all information is corroborated.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not reference any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that bus and train travel have increased compared to 2018, providing the necessary information to support the model's answer."
+    }
+  },
+  {
+    "question_id": "Q_012",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer matches the expected ground-truth answer in meaning, stating that 7 percent of trips were made on foot in 2023.",
+      "hallucination": "The model answer does not contain any factual claims not supported by the retrieved chunks; all claims are supported.",
+      "source_drift": "The model answer relies only on information from the ground-truth document and does not cite any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that the percentage of trips made on foot in 2023 is 7 percent, which is the same as the ground-truth answer."
+    }
+  },
+  {
+    "question_id": "Q_013",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer states that the percentage of trips made on foot has decreased, which matches the expected ground-truth answer.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are substantiated.",
+      "source_drift": "The model answer relies solely on information from the ground-truth document and does not reference any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that the percentage of trips made on foot has decreased and provides the necessary context to support this claim."
+    }
+  },
+  {
+    "question_id": "Q_014",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer states that the target percentage of car trips in Skåne for the year 2030 is 42%, which matches the expected ground-truth answer.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all information is consistent with the provided data.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not reference any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that 42 percent of all trips in Skåne should be by car in 2030, which directly supports the model answer."
+    }
+  },
+  {
+    "question_id": "Q_015",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer states that 5% of trips were made by train in 2007, which matches the expected ground-truth answer.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are verified.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not reference any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly contain the information that 5% of trips were made by train in 2007, directly supporting the model answer."
+    }
+  },
+  {
+    "question_id": "Q_016",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer correctly states that the target percentage of bus trips in Skåne for the year 2030 is 15 percent, which matches the expected ground-truth answer.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are substantiated.",
+      "source_drift": "The model answer relies solely on information from the ground-truth document and does not reference any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that the target percentage of bus trips in Skåne for 2030 is 15 percent, providing the necessary information directly."
+    }
+  },
+  {
+    "question_id": "Q_017",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer states that approximately 13% of trips were made by bus in 2023, which matches the expected ground-truth answer of 13 percent.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are substantiated.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not reference any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that approximately 13 percent of trips were made by bus in 2023, providing the necessary information directly."
+    }
+  },
+  {
+    "question_id": "Q_018",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer states that the target percentage of bicycle trips in Skåne for the year 2030 is 19%, which matches the expected ground-truth answer.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all information is consistent with the provided data.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not reference any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that the target percentage of bicycle trips in Skåne for 2030 is 19%, providing the necessary information directly."
+    }
+  },
+  {
+    "question_id": "Q_019",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer states that approximately 17% of trips were made by bicycle in Skåne in 2023, which matches the expected ground-truth answer of 17 percent.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are supported.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not cite any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that the percentage of trips made by bicycle in Skåne in 2023 is approximately 17%, which directly supports the model answer."
+    }
+  },
+  {
+    "question_id": "Q_020",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer states that the target percentage of train trips in Skåne for the year 2030 is 13%, which matches the expected ground-truth answer.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all information is consistent with the provided data.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not reference any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that the target percentage of train trips in Skåne for 2030 is 13%, providing the necessary information directly."
+    }
+  },
+  {
+    "question_id": "Q_021",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer states that 12% of trips in Skåne were made by train in 2023, which matches the expected ground-truth answer.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are verified.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not cite any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that approximately 12% of trips are made by train in Skåne in 2023, providing the necessary information directly."
+    }
+  },
+  {
+    "question_id": "Q_022",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer states that the target percentage of walking trips in Skåne for the year 2030 is 11%, which matches the expected ground-truth answer.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are verified by the provided information.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not reference any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that the target percentage of walking trips in Skåne for 2030 is 11%, which is the same as the model answer."
+    }
+  },
+  {
+    "question_id": "Q_023",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer states that 12% of trips in Skåne were made by walking in 2007, which matches the expected ground-truth answer.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are verified.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not cite any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that 12% of trips in Skåne were made by walking in 2007, providing the necessary information directly."
+    }
+  },
+  {
+    "question_id": "Q_024",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that the specific percentage for men is not provided, which contradicts the expected ground-truth answer of 52.4%.",
+      "hallucination": "The model answer claims that 49% of all trips were made by car, which is not the same as the percentage for men and is not supported by the retrieved chunks.",
+      "source_drift": "The model answer does not reference any document other than the ground-truth document, as it only discusses the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not contain the specific percentage for men, nor do they provide the necessary information to derive it, leading to a score of 0."
+    }
+  },
+  {
+    "question_id": "Q_025",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not match the expected ground-truth answer of 15.1% for the percentage of trips made by women by bus, as it states that the specific percentage for women was not provided.",
+      "hallucination": "The model answer claims that approximately 13% of all trips are made by bus, which is not supported by the retrieved chunks that indicate 15% is the target for bus trips by 2030, and does not provide the specific percentage for women.",
+      "source_drift": "The model answer does not rely on information from any document other than the ground-truth document, as it only references the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not contain the specific and decisive information required to answer the question about the percentage of trips made by women by bus, as they do not provide this demographic detail."
+    }
+  },
+  {
+    "question_id": "Q_026",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that approximately 13% of all trips are made by bus, which does not match the expected ground-truth answer of 11.3%.",
+      "hallucination": "The model answer includes a percentage (13%) that is not supported by the retrieved chunks, which specifically mention 15% for bus trips in the context of future goals, but do not provide a percentage for men.",
+      "source_drift": "The model answer does not reference any document other than the ground-truth document, as it is based solely on the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not contain the specific percentage of bus trips made by men, nor do they provide the exact figure of 11.3%, which is necessary to match the ground-truth answer."
+    }
+  },
+  {
+    "question_id": "Q_027",
+    "correctness": 0,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that the percentage of trips made on foot is 7%, which does not match the expected ground-truth answer of 8.4%.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; it accurately reflects the information provided.",
+      "source_drift": "The model answer relies solely on the information from the retrieved chunks and does not cite any external sources.",
+      "correct_chunks": "The retrieved chunks do not explicitly state the percentage of trips made on foot as 8.4%, which is necessary to match the ground-truth answer. Instead, they indicate that the percentage is 7% for 2023."
+    }
+  },
+  {
+    "question_id": "Q_028",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not match the expected ground-truth answer of 5.9% for trips made on foot by men, as it states that the percentage is not specified separately for men.",
+      "hallucination": "The model answer claims that the overall percentage of trips made on foot in Skåne is 7%, which is not supported by the retrieved chunks. The chunks indicate that the percentage of trips made on foot is 11% in 2030, and the 2023 data does not provide a specific percentage for men.",
+      "source_drift": "The model answer does not rely on information from any document other than the ground-truth document, as it only references the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not contain the specific percentage of trips made on foot by men, nor do they provide the necessary information to derive that percentage."
+    }
+  },
+  {
+    "question_id": "Q_029",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer matches the expected ground-truth answer in meaning, stating that the percentages of trips made by bicycle and train are evenly distributed by gender.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are supported.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not cite any external sources.",
+      "correct_chunks": "The retrieved chunks explicitly contain the necessary information regarding the distribution of trips made by bicycle and train by gender, confirming the model's claims."
+    }
+  },
+  {
+    "question_id": "Q_030",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer matches the expected ground-truth answer in meaning, stating that the percentage of car trips is significantly higher among older residents compared to younger residents.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are supported.",
+      "source_drift": "The model answer relies solely on information from the ground-truth document and does not cite any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that the percentage of car trips is significantly higher among older residents compared to younger residents, which directly supports the model answer."
+    }
+  },
+  {
+    "question_id": "Q_031",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer matches the expected ground-truth answer in meaning, stating that younger residents travel more by public transport compared to older residents.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are substantiated.",
+      "source_drift": "The model answer relies solely on information from the ground-truth document and does not cite any external sources.",
+      "correct_chunks": "The retrieved chunks explicitly contain the necessary information that younger residents travel more by public transport, as stated in the model answer."
+    }
+  },
+  {
+    "question_id": "Q_032",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not match the expected ground-truth answer, as it states that the age group 16-24 has the highest percentage of bus trips, while the ground-truth specifies the age group 15-18 years.",
+      "hallucination": "The model answer includes a factual claim about the age group 16-24 having the highest percentage of bus trips, which is not supported by the retrieved chunks.",
+      "source_drift": "The model answer does not rely on information from any document other than the ground-truth document, as it does not cite any external sources.",
+      "correct_chunks": "The retrieved chunks do not contain any specific information about the age group with the highest percentage of bus trips, making it impossible to verify the model's claims."
+    }
+  },
+  {
+    "question_id": "Q_033",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that the age group 19-25 years follows 15-18 years, while the expected answer specifies 19-24 years. This discrepancy means the model answer does not match the expected ground-truth answer in meaning.",
+      "hallucination": "The model answer includes the age group 19-25 years, which is not supported by the retrieved chunks. The retrieved information does not mention this age group, indicating that the model has introduced a factual claim not found in the sources.",
+      "source_drift": "The model answer does not rely on information from any document other than the ground-truth document, as it is based solely on the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not contain the specific and decisive information required to answer the question correctly, as they do not mention the age group that follows 15-18 years in terms of bus trips."
+    }
+  },
+  {
+    "question_id": "Q_034",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that the most common mode of transport is by bus with 13% of trips, while the expected answer states it is 36%. Therefore, the model answer does not match the expected ground-truth answer in meaning.",
+      "hallucination": "The model answer claims that bus accounts for 13% of trips, which is not supported by the retrieved chunks. The chunks indicate that the bus accounts for 36% of trips for households with a total income under 10,000 kronor per month.",
+      "source_drift": "The model answer does not rely on information from any document other than the ground-truth document, as it only references the Skåne travel survey.",
+      "correct_chunks": "The retrieved chunks do not contain the specific and decisive information required to answer the question correctly, as they do not explicitly state that the bus is the most common mode of transport with 36% of trips."
+    }
+  },
+  {
+    "question_id": "Q_035",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that increasing income generally leads to a decrease in the percentage of car trips, which contradicts the expected ground-truth answer that indicates the percentage of car trips increases with rising income for lower income classes but then stabilizes.",
+      "hallucination": "The model answer introduces a claim about a growing trend towards public transport usage among all income brackets, which is not supported by the retrieved chunks.",
+      "source_drift": "The model answer does not reference any document other than the ground-truth document, as it is based on the Skåne travel survey.",
+      "correct_chunks": "The retrieved chunks do not contain explicit information that directly supports the model's claims about the relationship between income and car trips for lower income classes."
+    }
+  },
+  {
+    "question_id": "Q_036",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer accurately reflects the expected ground-truth answer, stating that the percentage of bus trips decreases with increased income for lower income classes.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are substantiated.",
+      "source_drift": "The model answer relies solely on information from the ground-truth document and does not reference any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that the percentage of bus trips decreases as income rises for lower income classes, matching the model answer's claims."
+    }
+  },
+  {
+    "question_id": "Q_037",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer accurately reflects the expected ground-truth answer that collective transport modes are more common in the lower income groups.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are substantiated.",
+      "source_drift": "The model answer relies solely on the information provided in the ground-truth document and does not reference any external sources.",
+      "correct_chunks": "The retrieved chunks contain explicit information about the correlation between income levels and the use of collective transport, directly supporting the model's claims."
+    }
+  },
+  {
+    "question_id": "Q_038",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer accurately reflects the expected ground-truth answer, stating that students use public transport more frequently than wage earners/self-employed individuals.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are substantiated.",
+      "source_drift": "The model answer relies solely on information from the ground-truth document and does not reference any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that students choose to travel by public transport more than wage earners/self-employed individuals, which directly supports the model answer."
+    }
+  },
+  {
+    "question_id": "Q_039",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer accurately reflects the expected ground-truth answer, stating that students travel by car less than other employment groups.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are substantiated.",
+      "source_drift": "The model answer relies solely on information from the ground-truth document and does not reference any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that students travel by car to a lesser extent than other employment groups, which directly supports the model answer."
+    }
+  },
+  {
+    "question_id": "Q_040",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that parents on parental leave make 7% of their trips on foot, which does not match the expected ground-truth answer of 31%.",
+      "hallucination": "The model answer includes a factual claim (7%) that is not supported by the retrieved chunks, which indicate that the percentage is 31%.",
+      "source_drift": "The model answer does not rely on information from any document other than the ground-truth document, as it is based solely on the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not contain the specific and decisive information required to answer the question correctly, as they do not state that parents on parental leave make 31% of their trips on foot."
+    }
+  },
+  {
+    "question_id": "Q_041",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not match the expected ground-truth answer of 56% for car trips on Saturdays, as it states 49% for car trips in general without specifying Saturdays.",
+      "hallucination": "The model answer includes a factual claim about 49% of trips being made by car in 2023, which is not supported by the retrieved chunks, as they do not provide this specific percentage.",
+      "source_drift": "The model answer does not rely on information from any document other than the ground-truth document, as it only references the Skåne travel survey.",
+      "correct_chunks": "The retrieved chunks do not contain the specific percentage of car trips on Saturdays, nor do they provide the necessary information to derive that percentage."
+    }
+  },
+  {
+    "question_id": "Q_042",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not provide the expected percentage of car trips on Sundays, which is 58%. Instead, it states that the survey does not provide specific information on this topic.",
+      "hallucination": "The model answer implies that the survey lacks any information on car trips on Sundays, which is not supported by the retrieved chunks. The chunks contain data about car trips but do not explicitly mention the percentage for Sundays.",
+      "source_drift": "The model answer does not reference any document other than the ground-truth document, as it only discusses the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not contain the specific percentage of car trips on Sundays, nor do they provide the necessary information to derive that percentage directly."
+    }
+  },
+  {
+    "question_id": "Q_043",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer states that the percentage of car trips on Mondays is 47%, which matches the expected ground-truth answer.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are verified.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not reference any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that the percentage of car trips on Mondays is 47%, providing the necessary information directly."
+    }
+  },
+  {
+    "question_id": "Q_044",
+    "correctness": 0,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that the distribution of trips is not relatively even across weekdays, which contradicts the expected ground-truth answer of 'Yes'.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are based on the survey data.",
+      "source_drift": "The model answer relies solely on the information from the retrieved chunks and does not cite any external sources.",
+      "correct_chunks": "The retrieved chunks do not explicitly state that the distribution is uneven; therefore, the model's conclusion cannot be directly verified from the chunks."
+    }
+  },
+  {
+    "question_id": "Q_045",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not match the expected ground-truth answer of 36%. It provides different percentages for various areas instead.",
+      "hallucination": "The model answer includes specific percentages (22%, 30%, 48%) that are not part of the expected answer and are not directly stated in the retrieved chunks as a single percentage for walking under one kilometer.",
+      "source_drift": "The model answer does not reference any document other than the ground-truth document, as it is based on the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not contain the specific percentage of 36% for walking trips shorter than one kilometer, nor do they provide a direct answer that matches the ground-truth."
+    }
+  },
+  {
+    "question_id": "Q_046",
+    "correctness": 0,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer states 'approximately 20%' while the expected answer is '21%', which does not match in meaning.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks.",
+      "source_drift": "The model answer relies only on the ground-truth document and does not cite any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that 'drygt två av tio väljer att cykla för resor inom detta intervall', which translates to 'just over two out of ten choose to cycle for trips within this interval', supporting the claim that around 21% choose to cycle."
+    }
+  },
+  {
+    "question_id": "Q_047",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer correctly states 'Yes' in response to the question, which matches the expected ground-truth answer.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are consistent with the information provided.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not cite any external sources.",
+      "correct_chunks": "The retrieved chunks do not explicitly contain the specific and decisive information required to answer the question about the increase in car trips with distance, as they do not provide direct evidence or statistics related to this claim."
+    }
+  },
+  {
+    "question_id": "Q_048",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not match the expected ground-truth answer of 31%. Instead, it provides a percentage of 42% for car journeys expected by 2030, which is not the same as the current percentage.",
+      "hallucination": "The model answer includes a factual claim about the expected percentage of car journeys (42%) that is not supported by the retrieved chunks, which do not provide this specific current percentage for larger urban areas.",
+      "source_drift": "The model answer does not rely on information from any document other than the ground-truth document, as it only references the Skåne travel survey.",
+      "correct_chunks": "The retrieved chunks do not contain the specific and decisive information required to answer the question about the current percentage of people in larger urban areas using cars as their main mode of transport."
+    }
+  },
+  {
+    "question_id": "Q_049",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not match the expected ground-truth answer of 73% as it provides a different percentage (80%) and does not address the specific percentage for rural areas.",
+      "hallucination": "The model answer includes a factual claim about 80% of people who do not use public transport frequently traveling by car, which is not supported by the retrieved chunks.",
+      "source_drift": "The model answer does not rely on information from any document other than the ground-truth document, as it only references the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not contain the specific percentage of 73% for car usage as the main transport mode in rural areas, nor do they provide any explicit information that could lead to that conclusion."
+    }
+  },
+  {
+    "question_id": "Q_050",
+    "correctness": 0,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer states that 49% of people in urban areas use cars as their main mode of transport, which does not match the expected ground-truth answer of 56%.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are based on the provided data.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not cite any other sources.",
+      "correct_chunks": "The retrieved chunks contain the necessary information to determine the percentage of people using cars as their main mode of transport, specifically stating that 49% is the figure for 2023."
+    }
+  },
+  {
+    "question_id": "Q_051",
+    "correctness": 0,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that approximately 17% of people in urban areas choose to cycle, which does not match the expected ground-truth answer of 12%.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; it accurately reflects the information provided.",
+      "source_drift": "The model answer relies solely on the information from the retrieved chunks and does not cite any external sources.",
+      "correct_chunks": "The retrieved chunks do not contain the specific and decisive information required to answer the question with the exact meaning of the ground truth, as they do not state that 12% of people in urban areas choose to cycle."
+    }
+  },
+  {
+    "question_id": "Q_052",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that approximately 17% of people choose to cycle as their main mode of transport, while the expected ground-truth answer is 5%. Therefore, the model answer does not match the expected answer in meaning.",
+      "hallucination": "The model answer includes a factual claim about the percentage of people cycling (17%) that is not supported by the retrieved chunks, which do not mention a 5% figure at all.",
+      "source_drift": "The model answer does not rely on information from any document other than the ground-truth document, as it is based on the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not contain the specific and decisive information required to answer the question with the same meaning as the ground truth, as they do not mention the 5% figure."
+    }
+  },
+  {
+    "question_id": "Q_053",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that 49% of trips in rural areas under 1 km are made by car, which does not match the expected ground-truth answer of 60%.",
+      "hallucination": "The model answer includes a factual claim (49%) that is not supported by the retrieved chunks, which do not provide this specific percentage for trips under 1 km.",
+      "source_drift": "The model answer does not rely on information from any document other than the ground-truth document, as it cites the Skåne travel survey.",
+      "correct_chunks": "The retrieved chunks do not contain the specific and decisive information required to answer the question, as they do not mention the percentage of trips under 1 km made by car."
+    }
+  },
+  {
+    "question_id": "Q_054",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer states that the percentage of trips made by car in larger urban areas for distances under 1 km is 16%, which matches the expected ground-truth answer.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are verified by the data provided.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not reference any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that the percentage of trips made by car in larger urban areas for distances under 1 km is 16%, which is the exact information needed to answer the question."
+    }
+  },
+  {
+    "question_id": "Q_055",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that the car is the most common mode of transport for shorter trips, which contradicts the expected ground-truth answer of 'No'.",
+      "hallucination": "The model answer includes a factual claim about the car being the most common mode of transport, which is not supported by the retrieved chunks, as they do not confirm this assertion.",
+      "source_drift": "The model answer does not reference any document other than the ground-truth document, as it is based solely on the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not explicitly state that the car is the most common mode of transport for shorter trips, nor do they provide sufficient information to support this claim."
+    }
+  },
+  {
+    "question_id": "Q_056",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that approximately 13% of all trips are made by bus, which does not match the expected ground-truth answer of 10% for trips made by bus for distances under 1 km in larger urban areas.",
+      "hallucination": "The model answer includes a factual claim about the percentage of bus trips (13%) that is not supported by the retrieved chunks, which do not provide this specific information about bus trips for distances under 1 km.",
+      "source_drift": "The model answer does not reference any document other than the ground-truth document, as it only discusses information from the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not contain the specific and decisive information required to answer the question about the percentage of bus trips for distances under 1 km, as they do not mention this detail."
+    }
+  },
+  {
+    "question_id": "Q_057",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer correctly states that the car accounts for a large share of trips for longer distances, matching the expected ground-truth answer.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are substantiated.",
+      "source_drift": "The model answer relies solely on information from the ground-truth document and does not reference any other sources.",
+      "correct_chunks": "The retrieved chunks provide explicit information about the car's usage for longer trips, particularly in rural areas and larger towns, which directly supports the model's answer."
+    }
+  },
+  {
+    "question_id": "Q_058",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not provide the expected percentage of trips made by bus in rural areas for distances under 1 km, which is 4%. Therefore, it does not match the expected ground-truth answer.",
+      "hallucination": "The model answer implies that the information is not available in the retrieved chunks, which is a factual claim not supported by the retrieved information. The retrieved chunks do not contain any information about the percentage of trips made by bus for distances under 1 km, leading to a hallucination.",
+      "source_drift": "The model answer does not reference any document other than the ground-truth document, as it only discusses the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not contain the specific and decisive information required to answer the question about the percentage of trips made by bus for distances under 1 km, as this detail is missing."
+    }
+  },
+  {
+    "question_id": "Q_059",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that approximately 13% of trips are made by bus, which does not match the expected ground-truth answer of 39%.",
+      "hallucination": "The model answer includes a factual claim about the percentage of trips made by bus (13%) that is not supported by the retrieved chunks, which do not provide this specific percentage for trips to school and education.",
+      "source_drift": "The model answer does not rely on information from any document other than the ground-truth document, as it only references the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not contain the specific and decisive information required to answer the question about the percentage of trips to school and education made by bus, as they do not mention this percentage at all."
+    }
+  },
+  {
+    "question_id": "Q_060",
+    "correctness": 0,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not provide the expected percentage of trips made by train (24%), which is a direct mismatch with the ground-truth answer.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; it discusses the modes of transport without introducing any unverified information.",
+      "source_drift": "The model answer relies solely on the information from the retrieved chunks and does not cite any external sources.",
+      "correct_chunks": "The retrieved chunks do not explicitly state the percentage of trips to school and education made by train, which is necessary to answer the question correctly."
+    }
+  },
+  {
+    "question_id": "Q_061",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer states that the most common mode of transport for trips to the workplace is by car, which matches the expected ground-truth answer.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are supported.",
+      "source_drift": "The model answer relies solely on information from the ground-truth document and does not cite any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that 'bil det vanligaste färdmedlet' for trips to the workplace, which directly supports the model answer."
+    }
+  },
+  {
+    "question_id": "Q_062",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer states that 49% of trips to the workplace are made by car, which matches the expected ground-truth answer.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are verified.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not cite any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that 49% of trips to the workplace are made by car in 2023, which directly supports the model answer."
+    }
+  },
+  {
+    "question_id": "Q_063",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that 49% of trips involving picking up or dropping off are made by car, which does not match the expected ground-truth answer of 68%.",
+      "hallucination": "The model answer includes a factual claim (49%) that is not supported by the retrieved chunks, which do not provide this specific percentage.",
+      "source_drift": "The model answer does not rely on information from any document other than the ground-truth document, as it is based on the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not contain the specific and decisive information required to answer the question with the same meaning as the ground truth, as they do not mention the percentage of 68%."
+    }
+  },
+  {
+    "question_id": "Q_064",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not match the expected ground-truth answer of 4%, as it states that the percentage was not mentioned in the provided information.",
+      "hallucination": "The model answer implies that the information is completely absent, which is a factual claim not supported by the retrieved chunks, leading to hallucination.",
+      "source_drift": "The model answer does not rely on any document other than the ground-truth document, as it only refers to the provided information.",
+      "correct_chunks": "The retrieved chunks do not contain the specific percentage of trips made for business purposes by air, making the answer incomplete."
+    }
+  },
+  {
+    "question_id": "Q_065",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not provide the expected percentage of 33% for people without access to a car traveling by bus, which is the specific information requested.",
+      "hallucination": "The model answer implies a specific percentage of bus travel among those without a car, which is not supported by the retrieved chunks. The chunks do not provide a percentage for bus travel specifically for those without a car.",
+      "source_drift": "The model answer does not reference any document other than the ground-truth document, as it is based solely on the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not contain the specific percentage of 33% for bus travel among people without access to a car, nor do they provide sufficient information to derive that percentage."
+    }
+  },
+  {
+    "question_id": "Q_066",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not match the expected ground-truth answer of 23%, stating instead that 17% of people travel by bicycle, which is incorrect.",
+      "hallucination": "The model answer includes a factual claim about the percentage of people traveling by bicycle (17%) that is not relevant to the specific question about those without access to a car, indicating a hallucination.",
+      "source_drift": "The model answer does not reference any document other than the ground-truth document, so there is no source drift.",
+      "correct_chunks": "The retrieved chunks do not contain the specific percentage of people without access to a car who travel by bicycle, making the answer incomplete and unsupported."
+    }
+  },
+  {
+    "question_id": "Q_067",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that approximately 12% of trips made by people without access to a car are by train, which does not match the expected ground-truth answer of 23%.",
+      "hallucination": "The model answer includes a factual claim about the percentage of trips made by train (12%) that is not supported by the retrieved chunks, which do not provide this specific percentage for people without access to a car.",
+      "source_drift": "The model answer does not reference any document other than the ground-truth document, as it is based solely on the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not contain the specific and decisive information required to answer the question about the percentage of people without access to a car who travel by train, as they do not mention the 23% figure."
+    }
+  },
+  {
+    "question_id": "Q_068",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that approximately 80% of people who never use public transport travel by car, which does not match the expected ground-truth answer of 84%.",
+      "hallucination": "The model answer includes a factual claim (80%) that is not supported by the retrieved chunks, which do not provide any percentage for this specific group.",
+      "source_drift": "The model answer does not rely on information from any document other than the ground-truth document, as it does not cite any external sources.",
+      "correct_chunks": "The retrieved chunks do not contain the specific percentage (84%) required to answer the question, nor do they provide any information that could lead to the model's claim of 80%."
+    }
+  },
+  {
+    "question_id": "Q_069",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not provide the expected percentage of motorized trips made by car as a driver, which is 55.1%. Instead, it states that this information is not explicitly mentioned.",
+      "hallucination": "The model answer infers a significant percentage of trips made by car as a driver, which is not supported by the retrieved chunks. The chunks do not provide any specific percentage for trips made by car as a driver, leading to an unsupported inference.",
+      "source_drift": "The model answer relies solely on the information from the retrieved chunks and does not cite any external sources.",
+      "correct_chunks": "The retrieved chunks do not contain the specific percentage of 55.1% for trips made by car as a driver, nor do they provide enough information to derive this figure directly."
+    }
+  },
+  {
+    "question_id": "Q_070",
+    "correctness": 0,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that approximately 12 percent of motorized trips are made by train, while the expected ground-truth answer is 15.7%. Therefore, the model answer does not match the expected answer in meaning.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks. The percentage mentioned (12 percent) is supported by the retrieved chunks.",
+      "source_drift": "The model answer relies solely on information from the retrieved chunks and does not cite any external sources.",
+      "correct_chunks": "The retrieved chunks do not explicitly state the percentage of motorized trips made by train as 15.7%. Instead, they indicate that approximately 12 percent of trips are made by train, which does not match the ground-truth answer."
+    }
+  },
+  {
+    "question_id": "Q_071",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer states that 34% of motorized trips in 2023 were made by public transport, which matches the expected ground-truth answer.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are verified by the provided information.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not reference any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that the percentage of motorized trips made by public transport in 2023 is 34%, which is the exact information needed to answer the question."
+    }
+  },
+  {
+    "question_id": "Q_072",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer states that the percentage of motorized trips made by public transport in 2018 was 28%, which matches the expected ground-truth answer.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all information is consistent with the provided data.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not reference any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that the percentage of motorized trips made by public transport in 2018 was 28%, providing the necessary information directly."
+    }
+  },
+  {
+    "question_id": "Q_073",
+    "correctness": 0,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not match the expected ground-truth answer in meaning. The ground-truth states that respondents might have forgotten to report shorter trips because they were made several days earlier, while the model answer suggests that shorter trips are underreported because they are viewed as less significant or memorable, which is a different reasoning.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks. It discusses underreporting in a general sense, which is not explicitly contradicted by the retrieved information.",
+      "source_drift": "The model answer relies solely on the ground-truth document and does not cite information from any other document.",
+      "correct_chunks": "The retrieved chunks do not contain the specific and decisive information required to answer the question as stated in the ground-truth. The necessary information about respondents forgetting to report trips made several days earlier is not present."
+    }
+  },
+  {
+    "question_id": "Q_074",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that train trips for distances shorter than five kilometers are 'quite limited,' which does not match the expected ground-truth answer of 'almost none.'",
+      "hallucination": "The model answer includes the claim that the overall share of train journeys is around 12%, which is not explicitly supported by the retrieved chunks as they do not provide specific data for trips under five kilometers.",
+      "source_drift": "The model answer does not reference any document other than the ground-truth document, as it only discusses information from the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not contain explicit information about the share of train trips for distances shorter than five kilometers, making it impossible to verify the model's claims directly."
+    }
+  },
+  {
+    "question_id": "Q_075",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that approximately 12% of people's journeys are made by train, which does not match the expected ground-truth answer of over 40%.",
+      "hallucination": "The model answer includes a factual claim about the percentage of journeys made by train (12%) that is not supported by the retrieved chunks, which do not provide this specific percentage for trips longer than ten kilometers.",
+      "source_drift": "The model answer does not rely on information from any document other than the ground-truth document, as it cites the Skåne travel survey.",
+      "correct_chunks": "The retrieved chunks do not contain the specific and decisive information required to answer the question about the percentage of people choosing to travel by train for trips longer than ten kilometers, as they do not mention this percentage."
+    }
+  },
+  {
+    "question_id": "Q_076",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that approximately 13% of trips made by bus are for distances between three and twenty-five kilometers, which does not match the expected ground-truth answer of around 20 percent.",
+      "hallucination": "The model answer includes a factual claim (13% of trips made by bus) that is not supported by the retrieved chunks, which do not provide specific percentages for trips made by bus within the specified distance range.",
+      "source_drift": "The model answer does not rely on information from any document other than the ground-truth document, as it is based solely on the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not contain the specific and decisive information required to answer the question about the percentage of trips made by bus for distances between three and twenty-five kilometers."
+    }
+  },
+  {
+    "question_id": "Q_077",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer matches the expected ground-truth answer in meaning, stating that under two percent of the very longest trips are made by air.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are verified.",
+      "source_drift": "The model answer relies solely on information from the ground-truth document, with no references to other documents.",
+      "correct_chunks": "The retrieved chunks explicitly state that under two percent of the very longest trips are made by air, providing the necessary information directly."
+    }
+  },
+  {
+    "question_id": "Q_078",
+    "correctness": 0,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not match the expected ground-truth answer in meaning. The ground-truth states that bus and train use is always higher in larger urban areas compared to other area types, while the model answer suggests a general trend without explicitly stating 'always'.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks. All claims made are consistent with the information provided.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not cite any external sources.",
+      "correct_chunks": "The retrieved chunks do not contain the specific and decisive information required to answer the question as stated in the ground-truth. The necessary comparison of bus and train usage between larger urban areas and other area types is not explicitly stated."
+    }
+  },
+  {
+    "question_id": "Q_079",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not match the expected ground-truth answer in meaning, as it includes activities that are not part of the 'Specific errands' category according to the survey.",
+      "hallucination": "The model answer contains factual claims (grocery shopping, personal business tasks, attending appointments, going to the gym, engaging in leisure activities) that are not supported by the retrieved chunks.",
+      "source_drift": "The model answer does not rely on information from any document other than the ground-truth document, as it does not cite any external sources.",
+      "correct_chunks": "The retrieved chunks do not contain the specific and decisive information required to answer the question, as they do not mention the activities listed in the ground-truth answer."
+    }
+  },
+  {
+    "question_id": "Q_080",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not match the expected ground-truth answer in meaning, as it lists modes of transport that differ from the specified six modes in the ground-truth answer.",
+      "hallucination": "The model answer includes modes of transport such as 'Metro' and 'Ferry' which are not mentioned in the retrieved chunks, indicating that it contains factual claims not supported by the retrieved information.",
+      "source_drift": "The model answer does not rely on information from a document other than the ground-truth document, as it is based on the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not contain the specific and decisive information required to answer the question, as they do not explicitly list the six modes of transport mentioned in the ground-truth answer."
+    }
+  },
+  {
+    "question_id": "Q_081",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer correctly states that the electric bicycle is defined as a non-motorized mode of transport, which matches the expected ground-truth answer of 'No'.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are verified by the provided information.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not reference any external sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that the electric bicycle is defined as an icke-motoriserat (non-motorized) mode of transport, providing the necessary information to support the model's answer."
+    }
+  },
+  {
+    "question_id": "Q_082",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not match the expected ground-truth answer in meaning. The ground-truth answer states that the main challenge is the uncertainty due to respondents forgetting to report shorter trips, while the model answer attributes the challenge to changes in measurement methods or definitions.",
+      "hallucination": "The model answer introduces a factual claim about changes in measurement methods or definitions that is not supported by the retrieved chunks. The retrieved chunks do not mention this as a challenge.",
+      "source_drift": "The model answer does not rely on information from any document other than the ground-truth document, as it is based on the Skåne travel survey.",
+      "correct_chunks": "The retrieved chunks do not contain the specific and decisive information required to answer the question as stated in the ground-truth answer. The necessary information about uncertainty and respondents forgetting to report trips is missing."
+    }
+  },
+  {
+    "question_id": "Q_083",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not match the expected ground-truth answer, which is 'Air travel'. Instead, it discusses other modes of travel that are not specified in the ground-truth answer.",
+      "hallucination": "The model answer includes factual claims about modes of travel (motorcycle, moped, taxi, rideshare services) that are not supported by the retrieved chunks, which do not specify what is included in the 'Other' category.",
+      "source_drift": "The model answer relies solely on the information from the retrieved chunks and does not cite any external sources.",
+      "correct_chunks": "The retrieved chunks do not explicitly state that 'Air travel' is included in the 'Other' category, nor do they provide the necessary information to infer this directly."
+    }
+  },
+  {
+    "question_id": "Q_084",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer accurately reflects the expected ground-truth answer, stating that the category 'No answer' includes individuals who do not know or have chosen not to disclose their household income.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are verified by the provided information.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not reference any external sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that the category 'Ej svar' (No answer) includes those who do not know or have chosen not to state their household income, matching the model answer directly."
+    }
+  },
+  {
+    "question_id": "Q_085",
+    "correctness": 0,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that walking and cycling trips are included in the overall travel mode distribution, which contradicts the expected answer that they are not reported separately.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; however, it misinterprets the information.",
+      "source_drift": "The model answer relies solely on the ground-truth document and does not cite information from any other sources.",
+      "correct_chunks": "The retrieved chunks do not explicitly state that walking and cycling trips are included in the overall travel mode distribution, which is necessary to support the model's claims."
+    }
+  },
+  {
+    "question_id": "Q_086",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that the share of bus trips stabilizes at a lower level for the lower-income group, which contradicts the expected ground-truth answer that specifies the higher income classes.",
+      "hallucination": "The model answer makes a factual claim about the lower-income group that is not supported by the retrieved chunks, which do not mention any specific income group related to the stabilization of bus trips.",
+      "source_drift": "The model answer does not reference any document other than the ground-truth document, as it is based solely on the Skåne travel survey.",
+      "correct_chunks": "The retrieved chunks do not contain explicit information about which income group the share of bus trips stabilizes for, thus failing to provide the necessary information to support the model's answer."
+    }
+  },
+  {
+    "question_id": "Q_087",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that the source for determining the main mode of travel is based on self-reported responses from survey participants, which does not match the expected ground-truth answer that specifies 'the survey's method report.'",
+      "hallucination": "The model answer introduces the concept of self-reported responses, which is not supported by the retrieved chunks. The chunks do not mention self-reported data as the source.",
+      "source_drift": "The model answer does not reference any document other than the ground-truth document, as it is based on the Skåne travel survey.",
+      "correct_chunks": "The retrieved chunks do not contain the specific and decisive information required to answer the question about the source for determining the main mode of travel, as they do not mention the method report."
+    }
+  },
+  {
+    "question_id": "Q_088",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that a value label is displayed when the value reaches or exceeds 10%, while the expected answer specifies that it is displayed if the category constitutes two or more percent. This discrepancy means the model answer does not match the expected ground-truth answer in meaning.",
+      "hallucination": "The model answer introduces a specific threshold of 10% for displaying value labels, which is not supported by the retrieved chunks. The chunks do not mention this threshold, indicating that the model has fabricated this information.",
+      "source_drift": "The model answer does not reference any document other than the ground-truth document, as it is based solely on the information provided in the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not contain the specific and decisive information required to answer the question correctly. They do not explicitly state the threshold for displaying value labels, leading to an incomplete answer."
+    }
+  },
+  {
+    "question_id": "Q_089",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer correctly states that the target for the market share of public transport for motorized trips in Skåne by 2030 is 40 percent, which matches the expected ground-truth answer.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all information is consistent with the provided data.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not reference any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that the target for public transport's market share is 40 percent, providing the necessary information directly without any assumptions."
+    }
+  },
+  {
+    "question_id": "Q_090",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not match the expected ground-truth answer in meaning, as it adds additional context about professional activities that is not present in the ground-truth answer.",
+      "hallucination": "The model answer contains factual claims about the 'In service' trip purpose category that are not supported by the retrieved chunks, such as the emphasis on professional or work-related activities.",
+      "source_drift": "The model answer does not rely on information from any document other than the ground-truth document, as it does not cite any external sources.",
+      "correct_chunks": "The retrieved chunks do not explicitly contain the specific and decisive information required to answer the question with exactly the same meaning as the ground truth, as they do not mention 'trips, meetings, and errands made in service' directly."
+    }
+  },
+  {
+    "question_id": "Q_091",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not match the expected ground-truth answer, which states that 'some combinations may contain very few observations.' The model provides multiple reasons for fluctuations that are not mentioned in the ground-truth answer.",
+      "hallucination": "The model answer introduces several factors (transportation infrastructure, policy changes, economic conditions, urbanization trends, cultural shifts, and survey methodology) that are not supported by the retrieved chunks, which only mention the observation count without elaborating on these factors.",
+      "source_drift": "The model answer does not reference any documents other than the ground-truth document, as it does not cite any external sources.",
+      "correct_chunks": "The retrieved chunks do not contain the specific and decisive information required to answer the question as stated in the ground-truth answer. The necessary information about combinations containing very few observations is missing."
+    }
+  },
+  {
+    "question_id": "Q_092",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer includes '2030 (goal)', which is not part of the expected ground-truth answer that only lists 2007, 2013, 2018, and 2023.",
+      "hallucination": "The model answer introduces the year '2030 (goal)', which is not supported by the retrieved chunks as part of the order of years on the vertical axis.",
+      "source_drift": "The model answer does not rely on information from any document other than the ground-truth document.",
+      "correct_chunks": "The retrieved chunks do not explicitly contain the complete and correct order of years as required by the ground-truth answer, since they do not support the inclusion of '2030 (goal)'."
+    }
+  },
+  {
+    "question_id": "Q_093",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer accurately reflects the expected ground-truth answer by stating that walking, cycling, and bus usage are more common in larger urban areas compared to other areas, which aligns with the ground-truth meaning.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims made are consistent with the information provided.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not reference any external sources.",
+      "correct_chunks": "The model answer includes additional details about the trends in walking, cycling, and bus usage that are not explicitly stated in the retrieved chunks, indicating that not all necessary information is directly verifiable from the chunks."
+    }
+  },
+  {
+    "question_id": "Q_094",
+    "correctness": 0,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not match the expected ground-truth answer in meaning. The ground-truth answer specifically states that the travel mode distribution measures the progress towards a more sustainable transport system, while the model answer elaborates on the distribution of transportation modes without directly addressing the sustainability aspect.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks. All claims made in the model answer can be traced back to the information provided in the retrieved chunks.",
+      "source_drift": "The model answer relies solely on the information from the ground-truth document and does not cite or rely on any external sources.",
+      "correct_chunks": "The retrieved chunks do not explicitly contain the specific and decisive information required to answer the question as the ground-truth does. The necessary information about measuring the shift towards a sustainable transport system is not directly stated in the chunks."
+    }
+  },
+  {
+    "question_id": "Q_095",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer does not match the expected ground-truth answer, which specifies 'In service' and 'Specific errands' as the two categories. Instead, the model provides 'Leisure trips' and 'Work-related trips', which are different.",
+      "hallucination": "The model answer introduces categories ('Leisure trips' and 'Work-related trips') that are not supported by the retrieved chunks, which do not mention these categories at all.",
+      "source_drift": "The model answer does not reference any document other than the ground-truth document, as it is based solely on the Skåne travel survey.",
+      "correct_chunks": "The retrieved chunks do not contain the specific categories required to answer the question, as they do not mention 'In service' and 'Specific errands'."
+    }
+  },
+  {
+    "question_id": "Q_096",
+    "correctness": 1,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 1,
+    "justification": {
+      "correctness": "The model answer accurately reflects the expected ground-truth answer, stating that the use of alternative transport modes increases when certain modes are not available.",
+      "hallucination": "The model answer does not contain any factual claims that are unsupported by the retrieved chunks; all claims are substantiated.",
+      "source_drift": "The model answer relies solely on information from the ground-truth document and does not reference any other sources.",
+      "correct_chunks": "The retrieved chunks explicitly state that when access to a certain transport mode is lacking, the use of remaining modes increases, which aligns perfectly with the model answer."
+    }
+  },
+  {
+    "question_id": "Q_097",
+    "correctness": 0,
+    "hallucination": 0,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that there is a declining trend in the share of car trips in larger urban areas, while the expected answer simply states that the car is a less common mode of transport in these areas. The model answer adds additional details that are not present in the expected answer, leading to a mismatch in meaning.",
+      "hallucination": "The model answer includes specific details about the declining trend and future goals for car trips that are not explicitly supported by the retrieved chunks, which only provide general information about transportation trends without confirming the specific claims made in the model answer.",
+      "source_drift": "The model answer does not reference any document other than the ground-truth document, as it is based on the Skåne travel survey.",
+      "correct_chunks": "The retrieved chunks do not contain the specific and decisive information required to answer the question as the model claims. The necessary information about the trend of car trips in larger urban areas is not directly stated in the chunks."
+    }
+  },
+  {
+    "question_id": "Q_098",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that the 18–29 age group makes approximately six percent of their trips on foot, which does not match the expected ground-truth answer of the 15–18 year age group.",
+      "hallucination": "The model answer includes a factual claim about the 18–29 age group that is not supported by the retrieved chunks, which do not mention this age group in relation to the percentage of trips made on foot.",
+      "source_drift": "The model answer does not rely on information from any document other than the ground-truth document, as it is based solely on the Skåne travel survey.",
+      "correct_chunks": "The retrieved chunks do not contain any explicit information about the percentage of trips made on foot by the 15–18 year age group, nor do they mention the 18–29 age group in this context."
+    }
+  },
+  {
+    "question_id": "Q_099",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that public transport accounts for a large share of trips, which contradicts the expected answer that specifies 'Car'.",
+      "hallucination": "The model answer includes factual claims about public transport's share of trips (34% in 2023, increase from 28% in 2018) that are not supported by the retrieved chunks, which do not mention public transport as the mode accounting for a large share of trips.",
+      "source_drift": "The model answer does not reference any document other than the ground-truth document, as it is based solely on the retrieved chunks.",
+      "correct_chunks": "The retrieved chunks do not explicitly state that public transport accounts for a large share of trips; they indicate that car travel is the dominant mode, thus failing to provide the necessary information to support the model's claim."
+    }
+  },
+  {
+    "question_id": "Q_100",
+    "correctness": 0,
+    "hallucination": 1,
+    "source_drift": 0,
+    "correct_chunks": 0,
+    "justification": {
+      "correctness": "The model answer states that the car is the most common mode of transport for shorter trips in larger urban areas, which contradicts the expected ground-truth answer of 'No'.",
+      "hallucination": "The model answer makes a factual claim about the car being the most common mode of transport, which is not supported by the retrieved chunks. The chunks indicate a significant preference for collective transport options, suggesting that the car is not the most common mode.",
+      "source_drift": "The model answer does not rely on information from any document other than the ground-truth document, as it only references the Skåne travel survey.",
+      "correct_chunks": "The retrieved chunks do not contain explicit information stating that the car is the most common mode of transport for shorter trips; instead, they suggest a trend towards increased use of collective transport."
+    }
+  }
+]

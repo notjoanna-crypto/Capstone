@@ -14,7 +14,7 @@ load_dotenv()
 # 1. resvaneundersokning_document is the name of the collection containing vectors from the 90 page document
 #    text-embedding-3-small is the name of the model. 
 
-COLLECTION = "resvaneundersokning_ComponentChange_Conflict"
+COLLECTION = "resvaneundersokning_ComponentChange"
 VECTOR_NAME = "text-embedding-3-small"
 
 
@@ -94,7 +94,7 @@ dag_pipeline.connect("prompt", "generator", target_key="memory")
 # 10. Prompts/ Queries from the ground truth file are loaded and run through the RAG system to get answers.
 
 
-K_VALUES = [10, 15, 20]
+K_VALUES = [3, 5, 10, 15, 20]
 
 GT_FILE = "data/jsonFiler/QA_triplets.json"
 
@@ -131,11 +131,10 @@ for k in K_VALUES:
             "retrieved_chunks": chunks_out,
         })
 
-    output_file = f"data/jsonFiler/results_conflict_k{k}.json"
+    output_file = f"data/jsonFiler/results_clean_k{k}.json"
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
 
     print(f"Saved results to {output_file}")
 
-# Run code with: docker compose exec app python data/retrieve.py
-
+# Run code with: docker compose exec app python data/retrieve_clean.py

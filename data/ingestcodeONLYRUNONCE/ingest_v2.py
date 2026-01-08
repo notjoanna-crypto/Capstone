@@ -20,7 +20,7 @@ load_dotenv()
 COLLECTION = "resvaneundersokning_ComponentChange_Conflict" 
 VECTOR_NAME = "text-embedding-3-small"
 DIM = 1536
-#PDF_PATH = "/app/documents/resvaneundersokning.pdf"
+PDF_PATH = "/app/documents/resvaneundersokning.pdf"
 
 
 # 1) Connect to persistent Qdrant (docker compose service name)
@@ -79,15 +79,9 @@ ingestion_pipeline = IngestionPipeline(
 )
 
 
-
-PDFS = [
-    ("/app/documents/resvaneundersokning.pdf", {"source": "resvaneundersokning", "type": "pdf"}),
-    ("/app/documents/Conflict_Skane_Travel_Survey.pdf", {"source": "Conflict_Skane_Travel_Survey", "type": "pdf"}),
-    ("/app/documents/Noise_Doc_Kommunrapport_Linköping.pdf", {"source": "Noise_Doc_Kommunrapport_Linköping", "type": "pdf"}),
-]
-
-for path, meta in PDFS:
-    ingestion_pipeline.run(path, metadata=meta)
+ingestion_pipeline.run(
+    PDF_PATH,
+    metadata={"source": "resvaneundersokning", "type": "pdf"},
+)
 
 print("Ingestion complete.")
-

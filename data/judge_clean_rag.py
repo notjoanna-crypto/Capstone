@@ -7,9 +7,9 @@ load_dotenv()
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-GROUND_TRUTH_FILE = "data/ground_truth_final.json"
-RESULTS_FILE = "data/results_clean_rag.json"
-OUTPUT_FILE = "data/judged_clean_rag.json"
+GROUND_TRUTH_FILE = "data/jsonFiler/QA_triplets.json"
+RESULTS_FILE = "data/jsonFiler/results_conflict_k20.json"
+OUTPUT_FILE = "data/jsonFiler/judged_conflict_k20.json"
 
 
 JUDGE_PROMPT = """
@@ -31,6 +31,11 @@ Source Drift:
 - 1 if the model answer relies on or cites information from a document other than the ground-truth document.
 - 0 if it relies only on the ground-truth document.
 
+Correct Chunks:
+- 1 only if the retrieved chunks explicitly contain the specific and decisive information required to answer the question with exactly the same meaning as the ground truth. All necessary facts must be directly stated in the chunks without assumptions or inference.
+- 0 if any part of the required information is missing, implicit, or cannot be directly verified from the retrieved chunks.
+
+
 Question:
 {question}
 
@@ -48,10 +53,13 @@ Return STRICTLY in JSON:
   "correctness": 0 | 1,
   "hallucination": 0 | 1,
   "source_drift": 0 | 1,
+  "correct_chunks": 0 | 1,
   "justification": {{
     "correctness": "...",
     "hallucination": "...",
-    "source_drift": "..."
+    "source_drift": "...",
+    "correct_chunks": "..."
+
   }}
 }}
 """
@@ -94,6 +102,7 @@ def main():
             "correctness": evaluation["correctness"],
             "hallucination": evaluation["hallucination"],
             "source_drift": evaluation["source_drift"],
+            "correct_chunks": evaluation["correct_chunks"],
             "justification": evaluation["justification"]
         })
 
