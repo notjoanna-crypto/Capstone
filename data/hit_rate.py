@@ -55,10 +55,10 @@ Instructions:
 - NO = Any condition fails
 
 Example Judgments:
-- GT document, page 3, contains "49 percent" when answer is "49 percent" → YES
-- GT document, page 3, doesn't contain the expected answer → NO
-- Wrong document (Noise/Conflict), even if contains answer → NO
-- Ground truth document, wrong page, contains answer → NO
+- GT document, page 3, contains "49 percent" when answer is "49 percent": YES
+- GT document, page 3, doesn't contain the expected answer: NO
+- Wrong document (Noise/Conflict), even if contains answer: NO
+- Ground truth document, wrong page, contains answer: NO
 """
 
 def judge_single_chunk(question, expected_answer, chunk, correct_pages):
