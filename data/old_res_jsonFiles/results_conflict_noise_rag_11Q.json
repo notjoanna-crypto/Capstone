@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "GT_01",
+    "question": "According to the Skåne travel survey, what is the target market share for public transport, and what current percentage is reported?",
+    "expected_answer": "The target market share for public transport is 40 percent, while the current percentage is 28 percent.",
+    "generated_answer": "According to the Skåne travel survey, the target market share for public transport is 30%. The current percentage reported is around 22%.",
+    "retrieved_chunks": [
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "SECTION A: Public Transport Goals"
+      },
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "SECTION A: Public Transport Goals"
+      },
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "SECTION A: Public Transport Goals"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_02",
+    "question": "In the Skåne travel survey, what percentage of women and what percentage of men use bicycles when transport mode is analysed by gender?",
+    "expected_answer": "Women use bicycles 16.9% of the time, while men use bicycles 16.1% of the time.",
+    "generated_answer": "In the Skåne travel survey, the percentage of women using bicycles is approximately **16.9%**, while the percentage of men using bicycles is about **16.1%**.",
+    "retrieved_chunks": [
+      {
+        "page": 4,
+        "source": "resvaneundersokning",
+        "text": "Figur 6.2. Färdmedelsfördelning fördelat p< kön: r=43 486\n\n Kvinna\n\n Man\n\n 52.49\n\n 46.3%\n\n 16.9% 16.1%\n\n 15.1%\n\n 11.39\n\n 11.6% 12.1%\n\n 8.49\n\n 5.9%\n\n 1.6%\n\n 2.2%\n\n Cykel\n\n Bil\n\n Buss\n\n Annat\n\n"
+      },
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "SECTION B: Cycling Patterns by Gender"
+      },
+      {
+        "page": 3,
+        "source": "resvaneundersokning",
+        "text": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är andelen som cyklar ungefär 17 procent; vilket skulle tyda pë en positiv trendoch att mälet om att cykelns andel av det totala resandet 2030 ska vara 19 procent är inom räckliknar den önskade"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_03",
+    "question": "According to the Skåne travel survey data, which mode of transportation has the highest usage share for trips between 10 and 24.99 km?",
+    "expected_answer": "For trips with a length between 10 and 24.99 kilometers, the car is the most frequently used mode of transportation. According to the Skåne travel survey data, car travel accounts for approximately 64 percent of all trips in this distance interval, making it the dominant mode compared to public transport options such as bus (around 18 percent) and train (around 12 percent), while walking and cycling represent only a marginal share.",
+    "generated_answer": "The Skåne travel survey data indicates that for trips between 10 and 24.99 km, the mode of transportation with the highest usage share is typically the car. However, for the most accurate and specific information, it would be best to consult the actual survey data or analysis report.",
+    "retrieved_chunks": [
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "Transportation Patterns in Skäne Region"
+      },
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "Transportation Analysis: Skäne Region"
+      },
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "SECTION A: Public Transport Goals"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_04",
+    "question": "In Skåne, what share of total travel is projected to be by bicycle in 2030, and how does this compare to the current bicycle travel share reported in the survey?",
+    "expected_answer": "The projected percentage of total travel by bicycle in Skane in 2030 is 19 percent, which is an increase from the current percentage of approximately 17 percent.",
+    "generated_answer": "In Skåne, the projected share of total travel by bicycle in 2030 is 19%. Currently, the bicycle travel share is approximately 17%. This indicates a positive trend towards increasing bicycle use for travel in the region.",
+    "retrieved_chunks": [
+      {
+        "page": 3,
+        "source": "resvaneundersokning",
+        "text": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är andelen som cyklar ungefär 17 procent; vilket skulle tyda pë en positiv trendoch att mälet om att cykelns andel av det totala resandet 2030 ska vara 19 procent är inom räckliknar den önskade"
+      },
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "SECTION A: Public Transport Goals"
+      },
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "Transportation Assessment: Skäne Regional Analysis"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_05",
+    "question": "According to the Skåne travel survey, what is the percentage of bicycle use for trips of 1–2.99 km in larger towns compared to rural areas for the same distance?",
+    "expected_answer": "In larger towns, the percentage of bicycle use is 48%, while in rural areas, it is 19%.",
+    "generated_answer": "According to the Skåne travel survey:\n\n- In larger towns, the percentage of bicycle use for trips of 1–2.99 km is **23%**.\n- In rural areas, the percentage of bicycle use for the same distance is **12%**.\n\nTherefore, the bicycle use for trips of 1–2.99 km is higher in larger towns compared to rural areas.",
+    "retrieved_chunks": [
+      {
+        "page": 10,
+        "source": "resvaneundersokning",
+        "text": "Figur 6.9. Färdmedelsfördelning per typ av ort och reslängd: r=41 818\n\n Gáng\n\n Cykel\n\n Bil\n\n Buss\n\n Annat\n\n Landsbygd <1 km\n\n 22\n\n 13\n\n 60\n\n Tätort <1 km\n\n 30\n\n 22\n\n 41\n\n Större tätort <1\n\n 48\n\n 24\n\n [10\n\n Landsbygd 1-2.99 km\n\n 12\n\n 19\n\n 62\n\n Tätort 1-2.99 km\n\n 13\n\n 35\n\n 45\n\n Större tätort 1-2.99 km\n\n 23\n\n 48\n\n 17\n\n 12\n\n Landsbygd 3-4.99 km\n\n 10\n\n 81\n\n Tätort 3-4.99 km\n\n 23\n\n 59\n\n 11\n\n Större tätort 3-4.99 km\n\n 43\n\n 24\n\n Landsbygd 5-9.99 km\n\n 8\n\n 80\n\n 8\n\n 2\n\n Tätort 5-9.99 km\n\n 12\n\n 67\n\n 16\n\n 3\n\n Större tätort 5-9.99 km\n\n 26\n\n 38\n\n [28\n\n 5\n\n Landsbygd 10-24.99 km\n\n 78\n\n 10\n\n 6\n\n Tätort 10-24.99 km\n\n 65\n\n 17\n\n 12\n\n Större tätort 10-24.99 km\n\n 48\n\n 27\n\n 17\n\n Landsbygd >25 km\n\n 69\n\n 8\n\n 21\n\n Tätort >25\n\n 56\n\n 33\n\n Större tätort >25\n\n 43\n\n 6\n\n 48\n\n 0%\n\n 109\n\n 20%\n\n 30%\n\n 40%\n\n 509\n\n 60%\n\n 709\n\n 909\n\n 1009\n\n km\n\n km\n\n km\n\n"
+      },
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "Transportation Analysis: Skäne Region"
+      },
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "SECTION A: Public Transport Goals"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_06",
+    "question": "In the Skåne travel survey’s breakdown of motorised transport modes, what percentage is represented by cars compared to collective transport modes?",
+    "expected_answer": "Cars represent 55.1% while collective transport modes represent 15.7%.",
+    "generated_answer": "In the Skåne travel survey, cars represent 55.1% of the motorised transport modes. In contrast, collective transport modes account for 15.7%. Therefore, cars make up a significantly larger percentage compared to collective transport.",
+    "retrieved_chunks": [
+      {
+        "page": 12,
+        "source": "resvaneundersokning",
+        "text": "Figur 6.12. Färdmedelsfördelning av motoriserade färdmedel: r=28 335\n\n Ej kollektiv\n\n Kollektiv\n\n 55.1%\n\n 15.7%\n\n 10.0%\n\n 8.7%\n\n 8.7%\n\n 0.7%\n\n 0.1%\n\n 0.2%\n\n 0.5%\n\n 0.3%\n\n Bil\n\n Bil\n\n MCI\n\n A-traktorl Region -\n\n Stads -\n\n Spàr-\n\n Färd-\n\n Taxi\n\n (förare)\n\n (pass.)\n\n Moped\n\n EPA\n\n buss\n\n buss\n\n vagn\n\n tjänst\n\n"
+      },
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "SECTION A: Public Transport Goals"
+      },
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "SECTION A: Public Transport Goals"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_07",
+    "question": "Based on the Skåne travel survey, how does travel behaviour differ between older and younger residents in terms of car use and public transport use?",
+    "expected_answer": "Older residents travel significantly more by car, while younger residents use public transport to a greater extent.",
+    "generated_answer": "Based on typical findings from surveys like the Skåne travel survey, travel behavior often shows notable differences between older and younger residents:\n\n1. **Car Use:**\n   - **Older Residents:** Generally, older individuals tend to rely more on cars for their daily transport needs. This is often due to factors like the convenience and comfort associated with driving, as well as potential mobility challenges that might limit their use of other transport modes.\n   - **Younger Residents:** In contrast, younger people might use cars less frequently, particularly in urban areas. They may prefer alternative modes of transport, such as cycling or walking, or they may rely on shared mobility options like ride-sharing.\n\n2. **Public Transport Use:**\n   - **Older Residents:** While older adults may use public transport, their usage can be influenced by accessibility and convenience. Some may not feel comfortable with public transit due to physical mobility issues or a lack of services in their area.\n   - **Younger Residents:** Younger residents typically have higher rates of public transport usage. They are often more open to using buses, trains, and trams, particularly in urban environments where these options are more available and convenient.\n\nIn summary, younger residents in Skåne are more inclined to use public transport and alternative modes of travel, while older residents tend to favor car use due to convenience and comfort, influencing overall mobility patterns in the region.",
+    "retrieved_chunks": [
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "Transportation Patterns in Skäne Region"
+      },
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "Mobility Trends in the Skäne Region"
+      },
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "SECTION A: Public Transport Goals"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_08",
+    "question": "In the Skåne travel survey, what is the percentage distribution of transportation modes used for the purpose of “Inköp” (shopping)?",
+    "expected_answer": "11% by bicycle, 14% by car, 63% by bus, 10% by plane, and 2% by other.",
+    "generated_answer": "I currently don't have direct access to specific survey results, including the Skåne travel survey's data on transportation modes for shopping. To find the percentage distribution of transportation modes used for “Inköp,” you might want to check the official Skåne regional transportation website or look for published reports from local government transportation departments. If you have access to the survey data, you could analyze it directly to get the information you need.",
+    "retrieved_chunks": [
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "Transportation Patterns in Skäne Region"
+      },
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "Transportation Analysis: Skäne Region"
+      },
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "Transportation Assessment: Skäne Regional Analysis"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_09",
+    "question": "According to the Skåne travel survey, what share of motorised trips are made by bus compared to trips made by car as either a driver or passenger?",
+    "expected_answer": "More than 20 percent of motorized trips are made by bus, while more than three-quarters of motorized trips are made by car.",
+    "generated_answer": "According to the Skåne travel survey, more than three-quarters of motorised trips are made by car, either as a driver or passenger. Bus trips make up just over 20% of the motorised traffic.",
+    "retrieved_chunks": [
+      {
+        "page": 12,
+        "source": "resvaneundersokning",
+        "text": "Mer än tre av fyra resor med ett motoriserat färdsätt utgörs av bil, antingen som förare eller passagerare. Därefter är bussresor det vanligaste motoriserade färdmedlet med drygt 20 andelar av den motoriserade trafiken. Notera att elcykel har definierats som ett icke-motoriserat färdmedel och alltsä inte är inkluderat. Staplarna summerar till 10O procent."
+      },
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "SECTION A: Public Transport Goals"
+      },
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "SECTION A: Public Transport Goals"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_10",
+    "question": "In the Skåne travel survey, how do students’ travel choices compare with those of wage earners and self-employed individuals regarding public transport and car usage?",
+    "expected_answer": "Students choose to travel by public transport more than wage earners and self-employed individuals, and they also travel by car less than other employment groups.",
+    "generated_answer": "In the Skåne travel survey, students typically exhibit different travel patterns compared to wage earners and self-employed individuals. \n\n1. **Public Transport Usage**:\n   - **Students**: Students tend to rely more on public transport due to affordability and accessibility, often using buses and trains for commuting to universities or colleges.\n   - **Wage Earners**: Employed individuals usually have a mixed approach, with many opting for public transport, but a significant number also prefer driving, especially those with family commitments or longer commutes.\n   - **Self-Employed**: This group may lean towards personal cars for flexibility and convenience, as their schedules can be less fixed than those of wage earners.\n\n2. **Car Usage**:\n   - **Students**: Generally, students have lower car ownership rates and usage due to financial constraints and the availability of alternative transport options.\n   - **Wage Earners**: Higher car usage is common among wage earners, particularly those in positions where commuting is necessary or where public transport is less viable.\n   - **Self-Employed**: This demographic often uses cars more frequently, valuing the flexibility it provides for traveling to various client meetings or job sites.\n\nOverall, students favor public transport more than the other groups, reflecting their specific lifestyle and financial situation, while wage earners and self-employed individuals show a greater inclination towards car usage.",
+    "retrieved_chunks": [
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "Transportation Analysis: Skäne Region"
+      },
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "Transportation Patterns in Skäne Region"
+      },
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "Transportation Assessment: Skäne Regional Analysis"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_11",
+    "question": "According to the Skåne travel survey targets for 2030, from what percentage to what percentage must the share of walking trips increase to meet the goal?",
+    "expected_answer": "The share of walking trips needs to increase from 7 percent to 11 percent.",
+    "generated_answer": "The Skåne travel survey targets for 2030 state that the share of walking trips must increase from 14% to 20% to meet the goal.",
+    "retrieved_chunks": [
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "SECTION A: Public Transport Goals"
+      },
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "SECTION A: Public Transport Goals"
+      },
+      {
+        "page": 1,
+        "source": "synthetic_conflict",
+        "text": "SECTION A: Public Transport Goals"
+      }
+    ]
+  }
+]

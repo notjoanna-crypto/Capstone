@@ -1,0 +1,2441 @@
+{
+  "results_file": "data/final_results_jsonFiles/results_clean_rag_k3_v1.json",
+  "ground_truth_file": "data/ground_truth_questions.json",
+  "hit_rate": 0.43,
+  "hits": 43,
+  "total_questions": 100,
+  "k": "3",
+  "judgments": [
+    {
+      "question_id": "Q_001",
+      "question": "According to the Skåne travel survey, what is another term for the distribution of travel modes?",
+      "expected_answer": "Another term for the distribution of travel modes is färdmedelsfördelning.This term refers to the percentage of trips made using different modes of transportation",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 2,
+          "text_preview": "Färdmedelsfördelning är ett annat ord för andelen resor med olika färdsätt och är ett van ligt mftt ...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_002",
+      "question": "According to the Skåne travel survey, how many different modes of transport (not categories) were included in the survey?",
+      "expected_answer": "17",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 2,
+          "text_preview": "Färdmedelsfördelning är ett annat ord för andelen resor med olika färdsätt och är ett van ligt mftt ...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_003",
+      "question": "According to the Skåne travel survey, how many main categories are the results for modes of transport presented in?",
+      "expected_answer": "Six or seven",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Andel resor per färdmedel, det vill säga visas ifall kategorin utgör tv eller fler procent. I likhet...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 2,
+          "text_preview": "Färdmedelsfördelning är ett annat ord för andelen resor med olika färdsätt och är ett van ligt mftt ...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_004",
+      "question": "According to the Skåne travel survey, what are the seven main types of transport mentioned in the survey?",
+      "expected_answer": "Walking, Cycling, Car, Bus, Train, Air, Other",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 2,
+          "text_preview": "Färdmedelsfördelning är ett annat ord för andelen resor med olika färdsätt och är ett van ligt mftt ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Figur 6.9. Färdmedelsfördelning per typ av ort och reslängd: r=41 818\n\n Gáng\n\n Cykel\n\n Bil\n\n Buss\n\n ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 8,
+          "text_preview": "Figur 6.7.Färdmedelsfördelning för resor i olika reslängdsintervall: r=41818\n\n Gáng\n\n Cykel\n\n Bil\n\n ...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_005",
+      "question": "According to the Skåne travel survey, what does 'Bil' refer to in the context of transport modes?",
+      "expected_answer": "Car as driver and Car as passenger",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 2,
+          "text_preview": "Cykel\n\n Bil\n\n Vanlig cykel, Elcykel, Elsparkcykel)\n\n Bil som förare,\n\n Bil som passagerare\n\n Buss\n\n ...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_006",
+      "question": "According to the Skåne travel survey, what types of transport are included in the 'Annat' category?",
+      "expected_answer": "MC/Moped, A-traktor/EPA, Taxi, Special transport services, Boat, Other unspecified modes of transport",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Andel resor per färdmedel, det vill säga visas ifall kategorin utgör tv eller fler procent. I likhet...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 2,
+          "text_preview": "Cykel\n\n Bil\n\n Vanlig cykel, Elcykel, Elsparkcykel)\n\n Bil som förare,\n\n Bil som passagerare\n\n Buss\n\n ...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_007",
+      "question": "According to the Skåne travel survey, what percentage of trips were made by car in 2023?",
+      "expected_answer": "49 percent",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Andel resor per färdmedel, det vill säga visas ifall kategorin utgör tv eller fler procent. I likhet...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_008",
+      "question": "According to the Skåne travel survey, what percentage of trips were made by car in 2018?",
+      "expected_answer": "53 percent",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Andel resor per färdmedel, det vill säga visas ifall kategorin utgör tv eller fler procent. I likhet...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 12,
+          "text_preview": "Mer än tre av fyra resor med ett motoriserat färdsätt utgörs av bil, antingen som förare eller passa...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_009",
+      "question": "According to the Skåne travel survey, what percentage of trips were made by car in 2007?",
+      "expected_answer": "58 percent",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Andel resor per färdmedel, det vill säga visas ifall kategorin utgör tv eller fler procent. I likhet...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 11,
+          "text_preview": "Färdmedelsfördelning per tillgäng till färdmedel",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_010",
+      "question": "According to the Skåne travel survey, what are the next three most common modes of transport after car?",
+      "expected_answer": "bicycle, bus, and train",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 12,
+          "text_preview": "Mer än tre av fyra resor med ett motoriserat färdsätt utgörs av bil, antingen som förare eller passa...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Andel resor per färdmedel, det vill säga visas ifall kategorin utgör tv eller fler procent. I likhet...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 6,
+          "text_preview": "Bland de med en sammanlagd hushällsinkomst under 100OO kronor per minad, är buss det vanligast färdm...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_011",
+      "question": "According to the Skåne travel survey, have bus and train travel increased or decreased compared to 2018?",
+      "expected_answer": "increased",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Resultaten tyder pë att resor med buss och tfg har ökat jämfört med 2018. Som tidigare nämnt finns m...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_012",
+      "question": "According to the Skåne travel survey, what percentage of trips were made on foot in 2023?",
+      "expected_answer": "7 percent",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Andel resor per färdmedel, det vill säga visas ifall kategorin utgör tv eller fler procent. I likhet...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_013",
+      "question": "According to the Skåne travel survey, has the percentage of trips made on foot increased or decreased compared to previous years?",
+      "expected_answer": "decreased",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_014",
+      "question": "What is the target percentage of car trips in Skåne for the year 2030?",
+      "expected_answer": "42 percent",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_015",
+      "question": "According to the Skåne travel survey, what percentage of trips were made by train in 2007?",
+      "expected_answer": "5 percent",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 12,
+          "text_preview": "Mer än tre av fyra resor med ett motoriserat färdsätt utgörs av bil, antingen som förare eller passa...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Andel resor per färdmedel, det vill säga visas ifall kategorin utgör tv eller fler procent. I likhet...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_016",
+      "question": "According to the Skåne travel survey, what is the target percentage of bus trips in Skåne for the year 2030?",
+      "expected_answer": "15 percent",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Resultaten tyder pë att resor med buss och tfg har ökat jämfört med 2018. Som tidigare nämnt finns m...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_017",
+      "question": "According to the Skåne travel survey, what percentage of trips were made by bus in 2023?",
+      "expected_answer": "13 percent",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 11,
+          "text_preview": "Färdmedelsfördelning per tillgäng till färdmedel",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 6,
+          "text_preview": "Bland de med en sammanlagd hushällsinkomst under 100OO kronor per minad, är buss det vanligast färdm...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_018",
+      "question": "According to the Skåne travel survey, what is the target percentage of bicycle trips in Skåne for the year 2030?",
+      "expected_answer": "19 percent",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_019",
+      "question": "According to the Skåne travel survey, what percentage of trips were made by bicycle in Skåne in 2023?",
+      "expected_answer": "17 percent",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_020",
+      "question": "According to the Skåne travel survey, what is the target percentage of train trips in Skåne for the year 2030?",
+      "expected_answer": "13 percent",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Resultaten tyder pë att resor med buss och tfg har ökat jämfört med 2018. Som tidigare nämnt finns m...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_021",
+      "question": "According to the Skåne travel survey, what percentage of trips were made by train in Skåne in 2023?",
+      "expected_answer": "12 percent",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 11,
+          "text_preview": "Färdmedelsfördelning per tillgäng till färdmedel",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_022",
+      "question": "According to the Skåne travel survey, what is the target percentage of walking trips in Skåne for the year 2030?",
+      "expected_answer": "11 percent",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_023",
+      "question": "According to the Skåne travel survey, what percentage of trips were made by walking in Skåne in 2007?",
+      "expected_answer": "12 percent",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 11,
+          "text_preview": "Färdmedelsfördelning per tillgäng till färdmedel",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_024",
+      "question": "According to the Skåne travel survey, what percentage of trips do men make by car?",
+      "expected_answer": "52.4%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 4,
+          "text_preview": "Figur 6.2. Färdmedelsfördelning fördelat p< kön: r=43 486\n\n Kvinna\n\n Man\n\n 52.49\n\n 46.3%\n\n 16.9% 16....",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 4,
+          "text_preview": "sontella axeln och andelar p den vertikala axeln. De flesta resor görs med bil, följt av cykel, buss...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Andel resor per färdmedel, det vill säga visas ifall kategorin utgör tv eller fler procent. I likhet...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_025",
+      "question": "According to the Skåne travel survey, what percentage of trips do women make by bus?",
+      "expected_answer": "15.1%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 6,
+          "text_preview": "Bland de med en sammanlagd hushällsinkomst under 100OO kronor per minad, är buss det vanligast färdm...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 12,
+          "text_preview": "Mer än tre av fyra resor med ett motoriserat färdsätt utgörs av bil, antingen som förare eller passa...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 4,
+          "text_preview": "sontella axeln och andelar p den vertikala axeln. De flesta resor görs med bil, följt av cykel, buss...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_026",
+      "question": "According to the Skåne travel survey, what percentage of trips do men make by bus?",
+      "expected_answer": "11.3%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 6,
+          "text_preview": "Bland de med en sammanlagd hushällsinkomst under 100OO kronor per minad, är buss det vanligast färdm...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 12,
+          "text_preview": "Mer än tre av fyra resor med ett motoriserat färdsätt utgörs av bil, antingen som förare eller passa...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 4,
+          "text_preview": "Figur 6.2. Färdmedelsfördelning fördelat p< kön: r=43 486\n\n Kvinna\n\n Man\n\n 52.49\n\n 46.3%\n\n 16.9% 16....",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_027",
+      "question": "According to the Skåne travel survey, what percentage of trips do women make on foot?",
+      "expected_answer": "8.4%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 4,
+          "text_preview": "sontella axeln och andelar p den vertikala axeln. De flesta resor görs med bil, följt av cykel, buss...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 4,
+          "text_preview": "Figur 6.2. Färdmedelsfördelning fördelat p< kön: r=43 486\n\n Kvinna\n\n Man\n\n 52.49\n\n 46.3%\n\n 16.9% 16....",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_028",
+      "question": "According to the Skåne travel survey, what percentage of trips do men make on foot?",
+      "expected_answer": "5.9%",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 4,
+          "text_preview": "sontella axeln och andelar p den vertikala axeln. De flesta resor görs med bil, följt av cykel, buss...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 4,
+          "text_preview": "Figur 6.2. Färdmedelsfördelning fördelat p< kön: r=43 486\n\n Kvinna\n\n Man\n\n 52.49\n\n 46.3%\n\n 16.9% 16....",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_029",
+      "question": "According to the Skåne travel survey, are the percentages of trips made by bicycle and train evenly distributed by gender?",
+      "expected_answer": "Yes",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 4,
+          "text_preview": "Figur 6.2. Färdmedelsfördelning fördelat p< kön: r=43 486\n\n Kvinna\n\n Man\n\n 52.49\n\n 46.3%\n\n 16.9% 16....",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 4,
+          "text_preview": "sontella axeln och andelar p den vertikala axeln. De flesta resor görs med bil, följt av cykel, buss...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_030",
+      "question": "According to the Skåne travel survey, is the percentage of car trips higher among older residents compared to younger residents?",
+      "expected_answer": "Yes, the percentage of car trips is significantly higher among older residents compared to younger residents.",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 5,
+          "text_preview": "Andelen bilresor är betydligt högre bland äldre invanare jämfört med yngre. Samtidigt reser yngre in...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_031",
+      "question": "According to the Skåne travel survey, do younger residents travel more by public transport than older residents?",
+      "expected_answer": "Yes, younger residents travel to a greater extent by public transport compared to older residents.",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 5,
+          "text_preview": "Andelen bilresor är betydligt högre bland äldre invanare jämfört med yngre. Samtidigt reser yngre in...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_032",
+      "question": "According to the Skåne travel survey, which age group has the highest percentage of bus trips?",
+      "expected_answer": "The age group 15-18 years has the highest percentage of bus trips.",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 6,
+          "text_preview": "Bland de med en sammanlagd hushällsinkomst under 100OO kronor per minad, är buss det vanligast färdm...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 5,
+          "text_preview": "Andelen bilresor är betydligt högre bland äldre invanare jämfört med yngre. Samtidigt reser yngre in...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_033",
+      "question": "According to the Skåne travel survey, which age group follows 15-18 years in terms of bus trips?",
+      "expected_answer": "The age group 19-24 years follows 15-18 years in terms of bus trips.",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 5,
+          "text_preview": "Andelen bilresor är betydligt högre bland äldre invanare jämfört med yngre. Samtidigt reser yngre in...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 6,
+          "text_preview": "tella axeln anges färdmedelsprocenten kumulativt. Studenter väljer i högre utsträckning än lönearbet...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 6,
+          "text_preview": "Bland de med en sammanlagd hushällsinkomst under 100OO kronor per minad, är buss det vanligast färdm...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_034",
+      "question": "According to the Skåne travel survey, what is the most common mode of transport for households with a total income under 10,000 kronor per month and with which percent of trips?",
+      "expected_answer": "Bus is the most common mode of transport with 36 percent of trips.",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 6,
+          "text_preview": "Bland de med en sammanlagd hushällsinkomst under 100OO kronor per minad, är buss det vanligast färdm...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_035",
+      "question": "According to the Skåne travel survey, how does the percentage of car trips change with increasing income for lower income classes?",
+      "expected_answer": "The percentage of car trips increases with rising income for the lower income classes but then stabilizes.",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 6,
+          "text_preview": "Bland de med en sammanlagd hushällsinkomst under 100OO kronor per minad, är buss det vanligast färdm...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_036",
+      "question": "According to the Skåne travel survey, what happens to the percentage of bus trips as income increases for lower income classes?",
+      "expected_answer": "The percentage of bus trips decreases with increased income for the lower income classes.",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 6,
+          "text_preview": "Bland de med en sammanlagd hushällsinkomst under 100OO kronor per minad, är buss det vanligast färdm...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_037",
+      "question": "According to the Skåne travel survey, what is the trend for collective transport modes in relation to income groups?",
+      "expected_answer": "Collective transport modes are more common in the lower income groups.",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 6,
+          "text_preview": "Bland de med en sammanlagd hushällsinkomst under 100OO kronor per minad, är buss det vanligast färdm...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_038",
+      "question": "According to the Skåne travel survey, how do students' travel choices compare to those of wage earners/self-employed individuals regarding public transport?",
+      "expected_answer": "Students choose to travel by public transport such as buses and trains to a greater extent than wage earners/self-employed individuals.",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 6,
+          "text_preview": "tella axeln anges färdmedelsprocenten kumulativt. Studenter väljer i högre utsträckning än lönearbet...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_039",
+      "question": "According to the Skåne travel survey, do students travel by car more or less than other employment groups?",
+      "expected_answer": "Students travel by car to a lesser extent than other employment groups.",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 6,
+          "text_preview": "tella axeln anges färdmedelsprocenten kumulativt. Studenter väljer i högre utsträckning än lönearbet...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_040",
+      "question": "According to the Skåne travel survey, what percentage of trips do parents on parental leave make on foot?",
+      "expected_answer": "Parents on parental leave make 31 percent of their trips on foot.",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 11,
+          "text_preview": "Resor till skola och utbildning genomförs främst via buss, följt av t g. När det gäller resor till a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_041",
+      "question": "According to the Skåne travel survey, what is the percentage of car trips on Saturdays?",
+      "expected_answer": "56%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Andel resor per färdmedel, det vill säga visas ifall kategorin utgör tv eller fler procent. I likhet...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 7,
+          "text_preview": "Färdmedelsfördelning per veckodag",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_042",
+      "question": "According to the Skåne travel survey, what is the percentage of car trips on Sundays?",
+      "expected_answer": "58%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Andel resor per färdmedel, det vill säga visas ifall kategorin utgör tv eller fler procent. I likhet...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 7,
+          "text_preview": "Färdmedelsfördelning per veckodag",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_043",
+      "question": "According to the Skåne travel survey, what is the percentage of car trips on Mondays?",
+      "expected_answer": "47%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 7,
+          "text_preview": "Färdmedelsfördelning per veckodag",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_044",
+      "question": "According to the Skåne travel survey, is the distribution of trips by different modes of transport relatively even across the weekdays?",
+      "expected_answer": "Yes",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 7,
+          "text_preview": "Färdmedelsfördelning per veckodag",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Figur 6.9. Färdmedelsfördelning per typ av ort och reslängd: r=41 818\n\n Gáng\n\n Cykel\n\n Bil\n\n Buss\n\n ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 8,
+          "text_preview": "Figur 6.7.Färdmedelsfördelning för resor i olika reslängdsintervall: r=41818\n\n Gáng\n\n Cykel\n\n Bil\n\n ...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_045",
+      "question": "According to the Skåne travel survey, what percentage of people choose to walk for trips shorter than one kilometer?",
+      "expected_answer": "36%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 8,
+          "text_preview": "tella axeln anges färdmedelsprocenten kumulativt. resor. Som exempel väljer närmare fyra av tio att ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 8,
+          "text_preview": "kraftigt med reslängden. Exempelvis är nästan inga resor med tig för distanser kortare än fem kilome...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_046",
+      "question": "According to the Skåne travel survey, what percentage of people choose to cycle for trips shorter than one kilometer?",
+      "expected_answer": "21%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 8,
+          "text_preview": "tella axeln anges färdmedelsprocenten kumulativt. resor. Som exempel väljer närmare fyra av tio att ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Figur 6.9. Färdmedelsfördelning per typ av ort och reslängd: r=41 818\n\n Gáng\n\n Cykel\n\n Bil\n\n Buss\n\n ...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_047",
+      "question": "According to the Skåne travel survey, does the proportion of car trips increase with distance?",
+      "expected_answer": "Yes",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Figur 6.9. Färdmedelsfördelning per typ av ort och reslängd: r=41 818\n\n Gáng\n\n Cykel\n\n Bil\n\n Buss\n\n ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_048",
+      "question": "According to the Skåne travel survey, what percentage of people in larger urban areas use cars as their main mode of transport?",
+      "expected_answer": "31%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Bilen stär för en stor andel av resorna över de olika ortstyperna, särskilt för de längre resorna. M...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 12,
+          "text_preview": "Mer än tre av fyra resor med ett motoriserat färdsätt utgörs av bil, antingen som förare eller passa...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_049",
+      "question": "According to the Skåne travel survey, what percentage of people in rural areas use cars as their main mode of transport?",
+      "expected_answer": "73%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Andel resor per färdmedel, det vill säga visas ifall kategorin utgör tv eller fler procent. I likhet...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_050",
+      "question": "According to the Skåne travel survey, what percentage of people in urban areas use cars as their main mode of transport?",
+      "expected_answer": "56%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 12,
+          "text_preview": "Mer än tre av fyra resor med ett motoriserat färdsätt utgörs av bil, antingen som förare eller passa...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Bilen stär för en stor andel av resorna över de olika ortstyperna, särskilt för de längre resorna. M...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_051",
+      "question": "According to the Skåne travel survey, what percentage of people in urban areas choose to cycle as their main mode of transport?",
+      "expected_answer": "12%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 12,
+          "text_preview": "Mer än tre av fyra resor med ett motoriserat färdsätt utgörs av bil, antingen som förare eller passa...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_052",
+      "question": "According to the Skåne travel survey, what percentage of people in rural areas choose to cycle as their main mode of transport?",
+      "expected_answer": "5%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Figur 6.9. Färdmedelsfördelning per typ av ort och reslängd: r=41 818\n\n Gáng\n\n Cykel\n\n Bil\n\n Buss\n\n ...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_053",
+      "question": "According to the Skåne travel survey, what percentage of trips on rural areas under 1 km are made by car?",
+      "expected_answer": "60%",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Figur 6.9. Färdmedelsfördelning per typ av ort och reslängd: r=41 818\n\n Gáng\n\n Cykel\n\n Bil\n\n Buss\n\n ...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_054",
+      "question": "According to the Skåne travel survey, what percentage of trips in larger urban areas are made by car for distances under 1 km?",
+      "expected_answer": "16%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 8,
+          "text_preview": "kraftigt med reslängden. Exempelvis är nästan inga resor med tig för distanser kortare än fem kilome...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_055",
+      "question": "According to the Skåne travel survey, is the car the most common mode of transport for shorter trips in larger urban areas?",
+      "expected_answer": "No",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Bilen stär för en stor andel av resorna över de olika ortstyperna, särskilt för de längre resorna. M...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_056",
+      "question": "According to the Skåne travel survey, what percentage of trips in larger urban areas are made by bus for distances under 1 km?",
+      "expected_answer": "10%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 8,
+          "text_preview": "kraftigt med reslängden. Exempelvis är nästan inga resor med tig för distanser kortare än fem kilome...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 6,
+          "text_preview": "Bland de med en sammanlagd hushällsinkomst under 100OO kronor per minad, är buss det vanligast färdm...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Figur 6.9. Färdmedelsfördelning per typ av ort och reslängd: r=41 818\n\n Gáng\n\n Cykel\n\n Bil\n\n Buss\n\n ...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_057",
+      "question": "According to the Skåne travel survey, for longer trips, what mode of transport accounts for a large share of trips across different types of areas?",
+      "expected_answer": "Car",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Bilen stär för en stor andel av resorna över de olika ortstyperna, särskilt för de längre resorna. M...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_058",
+      "question": "According to the Skåne travel survey, what percentage of trips in rural areas are made by bus for distances under 1 km?",
+      "expected_answer": "4%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 6,
+          "text_preview": "Bland de med en sammanlagd hushällsinkomst under 100OO kronor per minad, är buss det vanligast färdm...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 8,
+          "text_preview": "kraftigt med reslängden. Exempelvis är nästan inga resor med tig för distanser kortare än fem kilome...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Figur 6.9. Färdmedelsfördelning per typ av ort och reslängd: r=41 818\n\n Gáng\n\n Cykel\n\n Bil\n\n Buss\n\n ...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_059",
+      "question": "According to the Skåne travel survey, what percentage of trips to school and education are made by bus?",
+      "expected_answer": "39%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 11,
+          "text_preview": "Resor till skola och utbildning genomförs främst via buss, följt av t g. När det gäller resor till a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 6,
+          "text_preview": "tella axeln anges färdmedelsprocenten kumulativt. Studenter väljer i högre utsträckning än lönearbet...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 6,
+          "text_preview": "Bland de med en sammanlagd hushällsinkomst under 100OO kronor per minad, är buss det vanligast färdm...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_060",
+      "question": "According to the Skåne travel survey, what percentage of trips to school and education are made by train?",
+      "expected_answer": "24%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 11,
+          "text_preview": "Resor till skola och utbildning genomförs främst via buss, följt av t g. När det gäller resor till a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 6,
+          "text_preview": "tella axeln anges färdmedelsprocenten kumulativt. Studenter väljer i högre utsträckning än lönearbet...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Andel resor per färdmedel, det vill säga visas ifall kategorin utgör tv eller fler procent. I likhet...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_061",
+      "question": "According to the Skåne travel survey, what is the most common mode of transport for trips to the workplace?",
+      "expected_answer": "Car",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 11,
+          "text_preview": "Resor till skola och utbildning genomförs främst via buss, följt av t g. När det gäller resor till a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 6,
+          "text_preview": "Bland de med en sammanlagd hushällsinkomst under 100OO kronor per minad, är buss det vanligast färdm...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 12,
+          "text_preview": "Mer än tre av fyra resor med ett motoriserat färdsätt utgörs av bil, antingen som förare eller passa...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_062",
+      "question": "According to the Skåne travel survey, what percentage of trips to the workplace are made by car?",
+      "expected_answer": "49%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 11,
+          "text_preview": "Resor till skola och utbildning genomförs främst via buss, följt av t g. När det gäller resor till a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_063",
+      "question": "According to the Skåne travel survey, what percentage of trips involving picking up/dropping off are made by car?",
+      "expected_answer": "68%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Andel resor per färdmedel, det vill säga visas ifall kategorin utgör tv eller fler procent. I likhet...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 11,
+          "text_preview": "Resor till skola och utbildning genomförs främst via buss, följt av t g. När det gäller resor till a...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_064",
+      "question": "According to the Skåne travel survey, what percentage of trips made for business purposes are by air?",
+      "expected_answer": "4%",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 11,
+          "text_preview": "Resor till skola och utbildning genomförs främst via buss, följt av t g. När det gäller resor till a...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_065",
+      "question": "According to the Skåne travel survey, what percentage of people without access to a car travel by bus?",
+      "expected_answer": "33%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 6,
+          "text_preview": "Bland de med en sammanlagd hushällsinkomst under 100OO kronor per minad, är buss det vanligast färdm...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 12,
+          "text_preview": "Mer än tre av fyra resor med ett motoriserat färdsätt utgörs av bil, antingen som förare eller passa...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_066",
+      "question": "According to the Skåne travel survey, what percentage of people without access to a car travel by bicycle?",
+      "expected_answer": "23%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 11,
+          "text_preview": "Färdmedelsfördelning per tillgäng till färdmedel",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_067",
+      "question": "According to the Skåne travel survey, what percentage of people without access to a car travel by train?",
+      "expected_answer": "23%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Andel resor per färdmedel, det vill säga visas ifall kategorin utgör tv eller fler procent. I likhet...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_068",
+      "question": "According to the Skåne travel survey, what percentage of people who never use public transport travel by car?",
+      "expected_answer": "84%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 11,
+          "text_preview": "Färdmedelsfördelning per tillgäng till färdmedel",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 9,
+          "text_preview": "Färdmedelsfördelning per typ av ort",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 12,
+          "text_preview": "Figur 6.12. Färdmedelsfördelning av motoriserade färdmedel: r=28 335\n\n Ej kollektiv\n\n Kollektiv\n\n 55...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_069",
+      "question": "According to the Skåne travel survey, what percentage of motorized trips are made by car as a driver?",
+      "expected_answer": "55.1%",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 12,
+          "text_preview": "Mer än tre av fyra resor med ett motoriserat färdsätt utgörs av bil, antingen som förare eller passa...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Andel resor per färdmedel, det vill säga visas ifall kategorin utgör tv eller fler procent. I likhet...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_070",
+      "question": "According to the Skåne travel survey, what percentage of motorized trips are made by train?",
+      "expected_answer": "15.7%",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 12,
+          "text_preview": "Mer än tre av fyra resor med ett motoriserat färdsätt utgörs av bil, antingen som förare eller passa...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 12,
+          "text_preview": "Figur 6.12. Färdmedelsfördelning av motoriserade färdmedel: r=28 335\n\n Ej kollektiv\n\n Kollektiv\n\n 55...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_071",
+      "question": "According to the Skåne travel survey, what percentage of motorized trips in 2023 were made by public transport?",
+      "expected_answer": "34 percent",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 12,
+          "text_preview": "Mer än tre av fyra resor med ett motoriserat färdsätt utgörs av bil, antingen som förare eller passa...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_072",
+      "question": "According to the Skåne travel survey, what was the percentage of motorized trips made by public transport in 2018?",
+      "expected_answer": "28 percent",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 12,
+          "text_preview": "Mer än tre av fyra resor med ett motoriserat färdsätt utgörs av bil, antingen som förare eller passa...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Andel resor per färdmedel, det vill säga visas ifall kategorin utgör tv eller fler procent. I likhet...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_073",
+      "question": "According to the Skåne travel survey, what is the primary reason shorter walking and cycling trips might not be reported accurately?",
+      "expected_answer": "Respondents might have forgotten to report them because the trips were made several days earlier.",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_074",
+      "question": "According to the Skåne travel survey, what is the typical share of train trips for distances shorter than five kilometers?",
+      "expected_answer": "Almost none",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 8,
+          "text_preview": "kraftigt med reslängden. Exempelvis är nästan inga resor med tig för distanser kortare än fem kilome...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_075",
+      "question": "According to the Skåne travel survey, what percentage of people choose to travel by train for trips longer than ten kilometers?",
+      "expected_answer": "More than four out of ten (over 40%)",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 8,
+          "text_preview": "kraftigt med reslängden. Exempelvis är nästan inga resor med tig för distanser kortare än fem kilome...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_076",
+      "question": "According to the Skåne travel survey, for trips between three and twenty-five kilometers, what is the approximate percentage of trips made by bus?",
+      "expected_answer": "Around 20 percent",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 8,
+          "text_preview": "kraftigt med reslängden. Exempelvis är nästan inga resor med tig för distanser kortare än fem kilome...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 8,
+          "text_preview": "Figur 6.7.Färdmedelsfördelning för resor i olika reslängdsintervall: r=41818\n\n Gáng\n\n Cykel\n\n Bil\n\n ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Figur 6.9. Färdmedelsfördelning per typ av ort och reslängd: r=41 818\n\n Gáng\n\n Cykel\n\n Bil\n\n Buss\n\n ...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_077",
+      "question": "According to the Skåne travel survey, what percentage of the very longest trips are made by air?",
+      "expected_answer": "Under two percent",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 8,
+          "text_preview": "kraftigt med reslängden. Exempelvis är nästan inga resor med tig för distanser kortare än fem kilome...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Andel resor per färdmedel, det vill säga visas ifall kategorin utgör tv eller fler procent. I likhet...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 8,
+          "text_preview": "Figur 6.7.Färdmedelsfördelning för resor i olika reslängdsintervall: r=41818\n\n Gáng\n\n Cykel\n\n Bil\n\n ...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_078",
+      "question": "According to the Skåne travel survey, how does the use of bus and train for longer trips compare between larger urban areas and other area types?",
+      "expected_answer": "Bus and train always have higher values in larger urban areas than in other area types.",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Figur 6.9. Färdmedelsfördelning per typ av ort och reslängd: r=41 818\n\n Gáng\n\n Cykel\n\n Bil\n\n Buss\n\n ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 6,
+          "text_preview": "Bland de med en sammanlagd hushällsinkomst under 100OO kronor per minad, är buss det vanligast färdm...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 9,
+          "text_preview": "Färdmedelsfördelning per typ av ort",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_079",
+      "question": "According to the Skåne travel survey, what does the 'Specific errands' category include?",
+      "expected_answer": "Visiting authorities, hospitals, health centers, dentists, and picking up or dropping off postal parcels.",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 11,
+          "text_preview": "Figur 6.10. Färdmedelsfördelning fördelat pf typ av ärende: r=43 337\n\n Cykel\n\n Bil\n\n Buss\n\n Flyg\n\n A...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Figur 6.9. Färdmedelsfördelning per typ av ort och reslängd: r=41 818\n\n Gáng\n\n Cykel\n\n Bil\n\n Buss\n\n ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 11,
+          "text_preview": "Valetav färdmedel piverkas även av resans ärende. Färdmedelsfördelningen per ärendetyp presenteras i...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_080",
+      "question": "According to the Skåne travel survey, what are the six modes of transport that together constitute the 'public transport' category in motorized traffic analysis?",
+      "expected_answer": "Train, regionbuss, stadsbuss, spårvagn, taxi, and färdtjänst",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 2,
+          "text_preview": "Färdmedelsfördelning är ett annat ord för andelen resor med olika färdsätt och är ett van ligt mftt ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 12,
+          "text_preview": "Figur 6.12. Färdmedelsfördelning av motoriserade färdmedel: r=28 335\n\n Ej kollektiv\n\n Kollektiv\n\n 55...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 11,
+          "text_preview": "Färdmedelsfördelning per tillgäng till färdmedel",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_081",
+      "question": "According to the Skåne travel survey, is the electric bicycle considered a motorized mode of transport?",
+      "expected_answer": "No",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 12,
+          "text_preview": "Mer än tre av fyra resor med ett motoriserat färdsätt utgörs av bil, antingen som förare eller passa...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_082",
+      "question": "According to the Skåne travel survey, what is the main challenge in comparing walking and cycling shares over time?",
+      "expected_answer": "There is a fairly large uncertainty, especially if respondents have forgotten to report shorter walking and cycling trips made several days earlier.",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_083",
+      "question": "According to the Skåne travel survey, in the travel mode distribution by age figure, which mode of travel is included in the 'Other' category?",
+      "expected_answer": "Air travel",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 5,
+          "text_preview": "Sett till ilder finns vissa skillnader vad gäller andel resor med olika färdmedel. Figur 6.3 visar ä...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Andel resor per färdmedel, det vill säga visas ifall kategorin utgör tv eller fler procent. I likhet...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 9,
+          "text_preview": "Färdmedelsfördelning per typ av ort",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_084",
+      "question": "According to the Skåne travel survey, what does the category 'No answer' include in the income group analysis?",
+      "expected_answer": "Those who stated they do not know or have chosen not to state their household income.",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 6,
+          "text_preview": "Vidare finns även vissa skillnader i färdmedelsfördelningen när det gäller hushallsinkomst och sysse...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_085",
+      "question": "According to the Skåne travel survey, how are walking or cycling trips that are connecting trips to public transport reported?",
+      "expected_answer": "They are not reported separately; only the public transport trip is presented as the main mode of travel.",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Figur 6.9. Färdmedelsfördelning per typ av ort och reslängd: r=41 818\n\n Gáng\n\n Cykel\n\n Bil\n\n Buss\n\n ...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_086",
+      "question": "According to the Skåne travel survey, for which income group does the share of bus trips stabilize at a lower level?",
+      "expected_answer": "The higher income classes",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 6,
+          "text_preview": "Bland de med en sammanlagd hushällsinkomst under 100OO kronor per minad, är buss det vanligast färdm...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_087",
+      "question": "According to the Skåne travel survey, what is the source for determining the main mode of travel for a trip?",
+      "expected_answer": "The survey's method report",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Andel resor per färdmedel, det vill säga visas ifall kategorin utgör tv eller fler procent. I likhet...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 2,
+          "text_preview": "Resultatet i detta kapitel avser huvudsakligt färdsätt för en resa, där anslutningsresor med ningsre...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_088",
+      "question": "According to the Skåne travel survey, in the travel mode distribution figure, when is a value label displayed for a category?",
+      "expected_answer": "If the category constitutes two or more percent.",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 2,
+          "text_preview": "Färdmedelsfördelning är ett annat ord för andelen resor med olika färdsätt och är ett van ligt mftt ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Figur 6.9. Färdmedelsfördelning per typ av ort och reslängd: r=41 818\n\n Gáng\n\n Cykel\n\n Bil\n\n Buss\n\n ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 9,
+          "text_preview": "Färdmedelsfördelning per typ av ort",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_089",
+      "question": "According to the Skåne travel survey, what is the target for the market share of public transport for motorized trips in Skåne by 2030?",
+      "expected_answer": "40 percent",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Resultaten tyder pë att resor med buss och tfg har ökat jämfört med 2018. Som tidigare nämnt finns m...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_090",
+      "question": "According to the Skåne travel survey, what does the 'In service' trip purpose category include?",
+      "expected_answer": "Trips, meetings, and errands made in service.",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 11,
+          "text_preview": "Figur 6.10. Färdmedelsfördelning fördelat pf typ av ärende: r=43 337\n\n Cykel\n\n Bil\n\n Buss\n\n Flyg\n\n A...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Andel resor per färdmedel, det vill säga visas ifall kategorin utgör tv eller fler procent. I likhet...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 11,
+          "text_preview": "Resor till skola och utbildning genomförs främst via buss, följt av t g. När det gäller resor till a...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_091",
+      "question": "According to the Skåne travel survey, for rural areas in the breakdown by area type and trip length, why might some percentage shares fluctuate between surveys?",
+      "expected_answer": "Some combinations may contain very few observations.",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "I figur 6.9 presenteras färdmedelsfördelning nedbrutet pf typ av ort samt reslängd, och visar typ av...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_092",
+      "question": "According to the Skåne travel survey, what is the order of years presented on the vertical axis in Figure 6.1?",
+      "expected_answer": "2007, 2013, 2018, and 2023",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "I figur 6.9 presenteras färdmedelsfördelning nedbrutet pf typ av ort samt reslängd, och visar typ av...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Figur 6.9. Färdmedelsfördelning per typ av ort och reslängd: r=41 818\n\n Gáng\n\n Cykel\n\n Bil\n\n Buss\n\n ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 5,
+          "text_preview": "Sett till ilder finns vissa skillnader vad gäller andel resor med olika färdmedel. Figur 6.3 visar ä...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_093",
+      "question": "According to the Skåne travel survey, what is the pattern for walking, cycling, and bus as modes of transport in larger urban areas compared to other areas?",
+      "expected_answer": "They are more common in larger urban areas (the pattern is reversed compared to the car).",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Figur 6.9. Färdmedelsfördelning per typ av ort och reslängd: r=41 818\n\n Gáng\n\n Cykel\n\n Bil\n\n Buss\n\n ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_094",
+      "question": "According to the Skåne travel survey, what does the travel mode distribution measure in the context of the transport system?",
+      "expected_answer": "It measures how the shift to a more sustainable transport system is progressing.",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 2,
+          "text_preview": "Färdmedelsfördelning är ett annat ord för andelen resor med olika färdsätt och är ett van ligt mftt ...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_095",
+      "question": "According to the Skåne travel survey, what are the two categories within the travel mode distribution by trip purpose?",
+      "expected_answer": "'In service' and 'Specific errands'",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Figur 6.9. Färdmedelsfördelning per typ av ort och reslängd: r=41 818\n\n Gáng\n\n Cykel\n\n Bil\n\n Buss\n\n ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 9,
+          "text_preview": "Färdmedelsfördelning per typ av ort",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Andel resor per färdmedel, det vill säga visas ifall kategorin utgör tv eller fler procent. I likhet...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_096",
+      "question": "According to the Skåne travel survey, what happens to the use of other transport modes when the conditions for a certain mode (like car or bicycle) do not exist?",
+      "expected_answer": "The use of the remaining modes of transport in the mix increases.",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 11,
+          "text_preview": "Färdmedelsfördelning per tillgäng till färdmedel",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Figur 6.9. Färdmedelsfördelning per typ av ort och reslängd: r=41 818\n\n Gáng\n\n Cykel\n\n Bil\n\n Buss\n\n ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 9,
+          "text_preview": "Färdmedelsfördelning per typ av ort",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_097",
+      "question": "According to the Skåne travel survey, what is the general trend for the share of car trips in larger urban areas compared to other areas?",
+      "expected_answer": "The car is a less common mode of transport in larger urban areas.",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Figur 6.9. Färdmedelsfördelning per typ av ort och reslängd: r=41 818\n\n Gáng\n\n Cykel\n\n Bil\n\n Buss\n\n ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Bilen stär för en stor andel av resorna över de olika ortstyperna, särskilt för de längre resorna. M...",
+          "is_relevant": true
+        }
+      ]
+    },
+    {
+      "question_id": "Q_098",
+      "question": "According to the Skåne travel survey, which age group makes approximately six percent of their trips on foot?",
+      "expected_answer": "The 15–18 year age group",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "Vidare tyder resultaten pë att andelen resor med bil skulle ha minskat jämfört med tidigare ligare. ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Figur 6.9. Färdmedelsfördelning per typ av ort och reslängd: r=41 818\n\n Gáng\n\n Cykel\n\n Bil\n\n Buss\n\n ...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_099",
+      "question": "According to the Skåne travel survey, for longer trips, what mode of transport accounts for a large share of trips across different types of areas?",
+      "expected_answer": "Car",
+      "found_relevant": false,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 3,
+          "text_preview": "delning 2030, där 42 procent av samtliga resor i Skine ska vara med bil, 15 procent med sökning är a...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 1,
+          "source": "GT",
+          "page": 8,
+          "text_preview": "Figur 6.7.Färdmedelsfördelning för resor i olika reslängdsintervall: r=41818\n\n Gáng\n\n Cykel\n\n Bil\n\n ...",
+          "is_relevant": false
+        },
+        {
+          "chunk_idx": 2,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Figur 6.9. Färdmedelsfördelning per typ av ort och reslängd: r=41 818\n\n Gáng\n\n Cykel\n\n Bil\n\n Buss\n\n ...",
+          "is_relevant": false
+        }
+      ]
+    },
+    {
+      "question_id": "Q_100",
+      "question": "According to the Skåne travel survey, is the car the most common mode of transport for shorter trips in larger urban areas?",
+      "expected_answer": "No",
+      "found_relevant": true,
+      "chunk_judgments": [
+        {
+          "chunk_idx": 0,
+          "source": "GT",
+          "page": 10,
+          "text_preview": "Bilen stär för en stor andel av resorna över de olika ortstyperna, särskilt för de längre resorna. M...",
+          "is_relevant": true
+        }
+      ]
+    }
+  ]
+}

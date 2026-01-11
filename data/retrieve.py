@@ -15,8 +15,17 @@ load_dotenv()
 #    text-embedding-3-small is the name of the model. 
 
 COLLECTION = "resvaneundersokning_document"
-VECTOR_NAME = "text-embedding-3-small"
+#COLLECTION = "clean_noise_conflicts_document" 
 
+# input ground truth file with questions
+GT_FILE = "data/ground_truth_questions.json"
+
+# output file to save results
+OUTPUT_FILE = "data/results_clean_rag.json"
+#OUTPUT_FILE = "data/results_conflict_noise_rag.json"
+
+
+VECTOR_NAME = "text-embedding-3-small"
 
 # 1. Create a client with the LLM gpt-4o-mini by loading the OpenAI API key from the environment.
 
@@ -28,8 +37,8 @@ openai_client = OpenAIClient(
 # 2. Rewite the user queries into better prompts.
 
 query_rewriter = ToolRewriter(
-    client=openai_client,
-    system_prompt="Rewrite the user query into a concise standalone search query. Do not answer.",
+   client=openai_client,
+   system_prompt="Rewrite the user query into a concise standalone search query. Do not answer.",
 )
 
 # 3. This embedder will be used to transforms the user question/query into a vector and qdrant will compare them 
@@ -129,10 +138,6 @@ for chunk in retrieved_chunks:
 """""""""
 # 10. Prompts/ Queries from the ground truth file are loaded and run through the RAG system to get answers.
 
-# input ground truth file with questions
-GT_FILE = "data/ground_truth_final.json"
-# output file to save results
-OUTPUT_FILE = "data/results_clean_rag.json"
 # Load ground truth questions
 with open(GT_FILE, "r", encoding="utf-8") as f:
     ground_truth = json.load(f)
@@ -175,7 +180,7 @@ for item in ground_truth:
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     json.dump(results, f, indent=2, ensure_ascii=False)
 
-print(f"Saved Clean RAG results to {OUTPUT_FILE}")
+print(f"Saved RAG results to {OUTPUT_FILE}")
 
 
 # Run code with: docker compose exec app python data/retrieve.py

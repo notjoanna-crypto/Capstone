@@ -15,12 +15,16 @@ from datapizza.vectorstores.qdrant import QdrantVectorstore
 load_dotenv()
 
 
-# COLLECTION = "my_documents"
-COLLECTION = "resvaneundersokning_document" 
+# COLLECTION = "resvaneundersokning_document" 
+COLLECTION = "clean_noise_conflicts_document" 
 VECTOR_NAME = "text-embedding-3-small"
 DIM = 1536
 
-PDF_PATH = "resvaneundersokning.pdf"
+# PDF_PATH = "resvaneundersokning.pdf" 
+# PDF_PATH = "Noise_Doc_Kommunrapport_Linköping.pdf"
+PDF_PATH = "Conflict_Skane_Travel_Survey.pdf"
+
+
 
 def main():
     # 1) Connect to persistent Qdrant (docker compose service name)
@@ -52,10 +56,17 @@ def main():
     # 5) Run ingestion once (or whenever docs change)
     ingestion_pipeline.run(
         PDF_PATH,
-        metadata={"source": "resvaneundersokning", "type": "pdf"},
-    )
+        #metadata={"source": "Noise", "doc_type": "noise_pdf"}
+        #metadata={"source": "GT", "doc_type": "clean_pdf"}
+        metadata={"source": "Conflict", "doc_type": "Conflict_pdf"}
 
-    print("Ingestion complete.")
+
+    )
+    
+
+    print("Ingestion complete!!")
 
 if __name__ == "__main__":
     main()
+
+# run: docker compose exec app python data/ingestcodeONLYRUNONCE/ingest.py

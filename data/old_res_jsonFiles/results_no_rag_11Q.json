@@ -1,0 +1,134 @@
+[
+  {
+    "question_id": "GT_01",
+    "question": "According to the Skåne travel survey, what is the target market share for public transport, and what current percentage is reported?",
+    "expected_answer": "The target market share for public transport is 40 percent, while the current percentage is 28 percent.",
+    "generated_answer": "Answer: The target market share for public transport is 40 percent, and the current reported percentage is 34 percent.  \nPages: 3",
+    "retrieved_chunks": [
+      {
+        "source": "resvaneundersokning.pdf",
+        "page": "3"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_02",
+    "question": "In the Skåne travel survey, what percentage of women and what percentage of men use bicycles when transport mode is analysed by gender?",
+    "expected_answer": "Women use bicycles 16.9% of the time, while men use bicycles 16.1% of the time.",
+    "generated_answer": "Not stated in the document.",
+    "retrieved_chunks": [
+      {
+        "source": "resvaneundersokning.pdf",
+        "page": "model-cited"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_03",
+    "question": "According to the Skåne travel survey data, which mode of transportation has the highest usage share for trips between 10 and 24.99 km?",
+    "expected_answer": "Car",
+    "generated_answer": "Not stated in the document.",
+    "retrieved_chunks": [
+      {
+        "source": "resvaneundersokning.pdf",
+        "page": "model-cited"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_04",
+    "question": "In Skåne, what share of total travel is projected to be by bicycle in 2030, and how does this compare to the current bicycle travel share reported in the survey?",
+    "expected_answer": "The projected percentage of total travel by bicycle in Skane in 2030 is 19 percent, which is an increase from the current percentage of approximately 17 percent.",
+    "generated_answer": "Answer: The share of total travel projected to be by bicycle in Skåne in 2030 is 19%, compared to the current bicycle travel share reported in the survey, which is approximately 17%.  \nPages: 3",
+    "retrieved_chunks": [
+      {
+        "source": "resvaneundersokning.pdf",
+        "page": "3"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_05",
+    "question": "According to the Skåne travel survey, what is the percentage of bicycle use for trips of 1–2.99 km in larger towns compared to rural areas for the same distance?",
+    "expected_answer": "In larger towns, the percentage of bicycle use is 48%, while in rural areas, it is 19%.",
+    "generated_answer": "Not stated in the document.",
+    "retrieved_chunks": [
+      {
+        "source": "resvaneundersokning.pdf",
+        "page": "model-cited"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_06",
+    "question": "In the Skåne travel survey’s breakdown of motorised transport modes, what percentage is represented by cars compared to collective transport modes?",
+    "expected_answer": "Cars represent 55.1% while collective transport modes represent 15.7%.",
+    "generated_answer": "Answer: Cars represent approximately 66% of motorised transport modes, while collective transport modes constitute about 34%. \nPages: 3, 12",
+    "retrieved_chunks": [
+      {
+        "source": "resvaneundersokning.pdf",
+        "page": "3, 12"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_07",
+    "question": "Based on the Skåne travel survey, how does travel behaviour differ between older and younger residents in terms of car use and public transport use?",
+    "expected_answer": "Older residents travel significantly more by car, while younger residents use public transport to a greater extent.",
+    "generated_answer": "Answer: The travel behaviour shows that the proportion of car journeys is significantly higher among older residents compared to younger ones, who tend to use public transport more frequently. Specifically, younger residents are more inclined to travel by bus, with the highest proportion of bus trips occurring among the 15-18 age group, followed by the 19-24 age group. \nPages: 5, 6",
+    "retrieved_chunks": [
+      {
+        "source": "resvaneundersokning.pdf",
+        "page": "5, 6"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_08",
+    "question": "In the Skåne travel survey, what is the percentage distribution of transportation modes used for the purpose of “Inköp” (shopping)?",
+    "expected_answer": "11% by bicycle, 14% by car, 63% by bus, 10% by plane, and 2% by other.",
+    "generated_answer": "Not stated in the document.",
+    "retrieved_chunks": [
+      {
+        "source": "resvaneundersokning.pdf",
+        "page": "model-cited"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_09",
+    "question": "According to the Skåne travel survey, what share of motorised trips are made by bus compared to trips made by car as either a driver or passenger?",
+    "expected_answer": "More than 20 percent of motorized trips are made by bus, while more than three-quarters of motorized trips are made by car.",
+    "generated_answer": "Answer: More than three of four motorised trips are made by car, while bus trips account for just over 20 percent of motorised trips.  \nPages: 12",
+    "retrieved_chunks": [
+      {
+        "source": "resvaneundersokning.pdf",
+        "page": "12"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_10",
+    "question": "In the Skåne travel survey, how do students’ travel choices compare with those of wage earners and self-employed individuals regarding public transport and car usage?",
+    "expected_answer": "Students choose to travel by public transport more than wage earners and self-employed individuals, and they also travel by car less than other employment groups.",
+    "generated_answer": "Answer: Students choose to travel more frequently with public transport (buss and tåg) compared to wage earners and self-employed individuals, while traveling less by car.  \nPages: 53",
+    "retrieved_chunks": [
+      {
+        "source": "resvaneundersokning.pdf",
+        "page": "53"
+      }
+    ]
+  },
+  {
+    "question_id": "GT_11",
+    "question": "According to the Skåne travel survey targets for 2030, from what percentage to what percentage must the share of walking trips increase to meet the goal?",
+    "expected_answer": "The share of walking trips needs to increase from 7 percent to 11 percent.",
+    "generated_answer": "Answer: From 7 percent to 11 percent.  \nPages: 3",
+    "retrieved_chunks": [
+      {
+        "source": "resvaneundersokning.pdf",
+        "page": "3"
+      }
+    ]
+  }
+]

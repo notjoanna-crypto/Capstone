@@ -1,10 +1,10 @@
 services:
   qdrant:
     image: qdrant/qdrant:latest
+    
     ports:
       - "6333:6333"
 
-  
     extra_hosts:
       - "host.docker.internal:host-gateway"
 
@@ -22,4 +22,5 @@ services:
       - .env
     depends_on:
       - qdrant
+
 
