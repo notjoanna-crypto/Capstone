@@ -1,3 +1,4 @@
 .venv/
 .env
 qdrant_data/
+.DS_Store
