@@ -11,7 +11,7 @@ GROUND_TRUTH_FILE = "data/ground_truth_questions.json"
 # Choose ONE results file to evaluate:
 
 # Clean RAG variants
-RESULTS_FILE = "data/final_results_jsonFiles/results_clean_rag_k3_v1.json"   # k=3
+RESULTS_FILE = "data/results_clean_rag_k3_v1.json"   # k=3
 # RESULTS_FILE = "data/results_clean_rag_k3_v2.json"   # k=3
 # RESULTS_FILE = "data/results_clean_rag_k5.json"   # k=5
 # RESULTS_FILE = "data/results_clean_rag_k10.json"  # k=10

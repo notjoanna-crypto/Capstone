@@ -1,5 +1,5 @@
 {
-  "results_file": "data/results_conflict_noise_rag_k3.json",
+  "results_file": "data/results_conflict_noise_rag_k3_v1.json",
   "ground_truth_file": "data/ground_truth_questions.json",
   "hit_rate": 0.28,
   "hits": 28,
